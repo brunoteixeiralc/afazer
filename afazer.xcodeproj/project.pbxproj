@@ -12,6 +12,7 @@
 		F4CB7C461FACE93600B779B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CB7C441FACE93600B779B9 /* Main.storyboard */; };
 		F4CB7C481FACE93600B779B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CB7C471FACE93600B779B9 /* Assets.xcassets */; };
 		F4CB7C4B1FACE93600B779B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CB7C491FACE93600B779B9 /* LaunchScreen.storyboard */; };
+		F4CB7C531FACEA0400B779B9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F4CB7C521FACEA0300B779B9 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F4CB7C471FACE93600B779B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4CB7C4A1FACE93600B779B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4CB7C4C1FACE93600B779B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CB7C521FACEA0300B779B9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		F4CB7C3F1FACE93600B779B9 /* afazer */ = {
 			isa = PBXGroup;
 			children = (
+				F4CB7C521FACEA0300B779B9 /* .gitignore */,
 				F4CB7C401FACE93600B779B9 /* AppDelegate.swift */,
 				F4CB7C421FACE93600B779B9 /* ViewController.swift */,
 				F4CB7C441FACE93600B779B9 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CB7C531FACEA0400B779B9 /* .gitignore in Resources */,
 				F4CB7C4B1FACE93600B779B9 /* LaunchScreen.storyboard in Resources */,
 				F4CB7C481FACE93600B779B9 /* Assets.xcassets in Resources */,
 				F4CB7C461FACE93600B779B9 /* Main.storyboard in Resources */,

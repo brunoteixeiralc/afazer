@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a8m-s9-i8B">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a8m-s9-i8B">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -13,7 +13,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Checklists-->
+        <!--Name of checklist-->
         <scene sceneID="sJA-Ec-frP">
             <objects>
                 <tableViewController id="ncC-ZO-W3D" customClass="ChecklistTableViewController" customModule="afazer" customModuleProvider="target" sceneMemberID="viewController">
@@ -67,7 +67,7 @@
                             <outlet property="delegate" destination="ncC-ZO-W3D" id="m8D-y2-V3y"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Checklists" id="CoL-cu-PwI">
+                    <navigationItem key="navigationItem" title="Name of checklist" id="CoL-cu-PwI">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="lEI-uS-UcM">
                             <connections>
                                 <action selector="addChecklistItem:" destination="ncC-ZO-W3D" id="Wwi-75-xyk"/>
@@ -164,18 +164,62 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="ncC-ZO-W3D" kind="relationship" relationship="rootViewController" id="yre-ov-3yX"/>
+                        <segue destination="JLy-BZ-DzC" kind="relationship" relationship="rootViewController" id="12p-eF-XzR"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ty3-H4-uVc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-569" y="-99"/>
+            <point key="canvasLocation" x="-1295" y="-100"/>
+        </scene>
+        <!--Checklists-->
+        <scene sceneID="GtK-eq-ZsH">
+            <objects>
+                <tableViewController id="JLy-BZ-DzC" customClass="AllListsTableViewController" customModule="afazer" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="77y-dI-bAt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="AllList" id="BpO-W5-wN5" customClass="AllListsTableViewCell" customModule="afazer" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BpO-W5-wN5" id="FL5-fb-qfQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="308" height="43.666666666666664"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AA7-Pa-FCt">
+                                            <rect key="frame" x="8" y="8" width="300" height="28"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="name" destination="AA7-Pa-FCt" id="nk6-JQ-X27"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="JLy-BZ-DzC" id="ANA-Mg-WDO"/>
+                            <outlet property="delegate" destination="JLy-BZ-DzC" id="bqq-eY-Zuw"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Checklists" id="DUd-7E-jKd"/>
+                    <connections>
+                        <segue destination="ncC-ZO-W3D" kind="show" identifier="ShowChecklist" id="y1O-Zd-ctq"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qTd-Z6-klS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-562" y="-100"/>
         </scene>
     </scenes>
     <resources>
         <image name="check" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="V9s-Qe-3ub"/>
+        <segue reference="brq-Lx-cpG"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -16,6 +16,9 @@
 		F4CB7C481FACE93600B779B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CB7C471FACE93600B779B9 /* Assets.xcassets */; };
 		F4CB7C4B1FACE93600B779B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CB7C491FACE93600B779B9 /* LaunchScreen.storyboard */; };
 		F4CB7C531FACEA0400B779B9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F4CB7C521FACEA0300B779B9 /* .gitignore */; };
+		F4F566921FB0B26500D26B90 /* AllListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */; };
+		F4F566941FB0B50C00D26B90 /* AllListsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */; };
+		F4F566961FB0B65200D26B90 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566951FB0B65200D26B90 /* Checklist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		F4CB7C4A1FACE93600B779B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4CB7C4C1FACE93600B779B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4CB7C521FACEA0300B779B9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsTableViewController.swift; sourceTree = "<group>"; };
+		F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsTableViewCell.swift; sourceTree = "<group>"; };
+		F4F566951FB0B65200D26B90 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +70,13 @@
 			children = (
 				F4CB7C521FACEA0300B779B9 /* .gitignore */,
 				F4CB7C401FACE93600B779B9 /* AppDelegate.swift */,
+				F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */,
+				F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */,
 				F4A356881FAE316100F748FD /* ChecklistTableViewController.swift */,
 				F4A3568C1FAE362000F748FD /* ChecklistTableViewCell.swift */,
 				F4A3568E1FAE42FE00F748FD /* AddItemViewController.swift */,
 				F4A3568A1FAE349200F748FD /* ChecklistItem.swift */,
+				F4F566951FB0B65200D26B90 /* Checklist.swift */,
 				F4CB7C441FACE93600B779B9 /* Main.storyboard */,
 				F4CB7C471FACE93600B779B9 /* Assets.xcassets */,
 				F4CB7C491FACE93600B779B9 /* LaunchScreen.storyboard */,
@@ -149,8 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F566941FB0B50C00D26B90 /* AllListsTableViewCell.swift in Sources */,
 				F4A3568F1FAE42FE00F748FD /* AddItemViewController.swift in Sources */,
+				F4F566921FB0B26500D26B90 /* AllListsTableViewController.swift in Sources */,
 				F4A3568D1FAE362000F748FD /* ChecklistTableViewCell.swift in Sources */,
+				F4F566961FB0B65200D26B90 /* Checklist.swift in Sources */,
 				F4A356891FAE316100F748FD /* ChecklistTableViewController.swift in Sources */,
 				F4A3568B1FAE349200F748FD /* ChecklistItem.swift in Sources */,
 				F4CB7C411FACE93600B779B9 /* AppDelegate.swift in Sources */,

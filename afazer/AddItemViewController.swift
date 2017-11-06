@@ -29,7 +29,7 @@ class AddItemViewController: UITableViewController {
         
         if let item = itemToEdit{
             title = "Editar item"
-            name.text = item.text
+            name.text = item.name
             done.isEnabled = true
         }
         
@@ -49,12 +49,12 @@ class AddItemViewController: UITableViewController {
     @IBAction func tapDone(_ sender: Any) {
         
         if let itemToEdit = itemToEdit{
-            itemToEdit.text = name.text!
+            itemToEdit.name = name.text!
             delegate?.addItemViewController(self, edit: itemToEdit)
         
         }else{
             let item = ChecklistItem()
-            item.text = name.text!
+            item.name = name.text!
             item.checked = false
             
             delegate?.addItemViewController(self, add: item)

@@ -20,7 +20,7 @@ class ChecklistTableViewCell: UITableViewCell {
     }
     
     func updateUI(){
-        name.text = item.text
+        name.text = item.name
         configureCheckmark(for: item)
     }
     

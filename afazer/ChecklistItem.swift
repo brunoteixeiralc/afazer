@@ -8,8 +8,8 @@
 
 import UIKit
 
-class ChecklistItem{
-    var text = ""
+class ChecklistItem {
+    var name = ""
     var checked = false
     
     func toggleChecked() {

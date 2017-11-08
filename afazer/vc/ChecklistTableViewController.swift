@@ -11,7 +11,11 @@ import UIKit
 class ChecklistTableViewController: UITableViewController {
 
     var items: [ChecklistItem]
-    var checklist: Checklist!
+    var checklist: Checklist!{
+        didSet{
+          title = checklist.name
+        }
+    }
 
     required init?(coder aDecoder: NSCoder) {
         items = [ChecklistItem]()
@@ -42,7 +46,6 @@ class ChecklistTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = checklist.name
     }
     
     @IBAction func addChecklistItem(_ sender: Any) {
@@ -64,25 +67,25 @@ class ChecklistTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return items.count
+        return checklist.items.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ChecklistItem", for: indexPath) as! ChecklistTableViewCell
-        cell.item = items[indexPath.row]
+        cell.item = checklist.items[indexPath.row]
         
         return cell
     }
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        items.remove(at: indexPath.row)
+        checklist.items.remove(at: indexPath.row)
         
         let indexPaths = [indexPath]
         tableView.deleteRows(at: indexPaths, with: .automatic)
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-         let item = items[indexPath.row]
+         let item = checklist.items[indexPath.row]
          item.toggleChecked()
          tableView.reloadData()
         
@@ -98,7 +101,7 @@ class ChecklistTableViewController: UITableViewController {
             controller.delegate = self
             
             if let indexPath = tableView.indexPath(for: sender as! UITableViewCell){
-                controller.itemToEdit = items[indexPath.row]
+                controller.itemToEdit = checklist.items[indexPath.row]
             }
         }
     }
@@ -111,8 +114,8 @@ extension ChecklistTableViewController:AddItemViewControllerDelegate{
     }
     
     func addItemViewController(_ controller: AddItemViewController, add item: ChecklistItem) {
-        let newRowIndex = items.count
-        items.append(item)
+        let newRowIndex = checklist.items.count
+        checklist.items.append(item)
         
         let indexPath = IndexPath(row: newRowIndex, section: 0)
         let indexPaths = [indexPath]
@@ -122,7 +125,7 @@ extension ChecklistTableViewController:AddItemViewControllerDelegate{
     }
     
     func addItemViewController(_ controller: AddItemViewController, edit item: ChecklistItem) {
-        if let index = items.index(where: {$0 === item}){
+        if let index = checklist.items.index(where: {$0 === item}){
             let indexPath = IndexPath(row: index, section: 0)
             if let cell = tableView.cellForRow(at: indexPath){
                (cell as! ChecklistTableViewCell).item = item

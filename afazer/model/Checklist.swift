@@ -10,4 +10,5 @@ import UIKit
 
 class Checklist {
     var name = ""
+    var items = [ChecklistItem]()
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42349891FB28627004B260E /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42349881FB28627004B260E /* ListDetailViewController.swift */; };
 		F4A356891FAE316100F748FD /* ChecklistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A356881FAE316100F748FD /* ChecklistTableViewController.swift */; };
 		F4A3568B1FAE349200F748FD /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3568A1FAE349200F748FD /* ChecklistItem.swift */; };
 		F4A3568D1FAE362000F748FD /* ChecklistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3568C1FAE362000F748FD /* ChecklistTableViewCell.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F42349881FB28627004B260E /* ListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
 		F4A356881FAE316100F748FD /* ChecklistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewController.swift; sourceTree = "<group>"; };
 		F4A3568A1FAE349200F748FD /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		F4A3568C1FAE362000F748FD /* ChecklistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewCell.swift; sourceTree = "<group>"; };
@@ -49,6 +51,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F423498A1FB29519004B260E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F4F566951FB0B65200D26B90 /* Checklist.swift */,
+				F4A3568A1FAE349200F748FD /* ChecklistItem.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F423498B1FB2951E004B260E /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */,
+				F4A3568C1FAE362000F748FD /* ChecklistTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F423498C1FB29526004B260E /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */,
+				F42349881FB28627004B260E /* ListDetailViewController.swift */,
+				F4A356881FAE316100F748FD /* ChecklistTableViewController.swift */,
+				F4A3568E1FAE42FE00F748FD /* AddItemViewController.swift */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
 		F4CB7C341FACE93500B779B9 = {
 			isa = PBXGroup;
 			children = (
@@ -68,15 +99,11 @@
 		F4CB7C3F1FACE93600B779B9 /* afazer */ = {
 			isa = PBXGroup;
 			children = (
+				F423498C1FB29526004B260E /* vc */,
+				F423498B1FB2951E004B260E /* cell */,
+				F423498A1FB29519004B260E /* model */,
 				F4CB7C521FACEA0300B779B9 /* .gitignore */,
 				F4CB7C401FACE93600B779B9 /* AppDelegate.swift */,
-				F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */,
-				F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */,
-				F4A356881FAE316100F748FD /* ChecklistTableViewController.swift */,
-				F4A3568C1FAE362000F748FD /* ChecklistTableViewCell.swift */,
-				F4A3568E1FAE42FE00F748FD /* AddItemViewController.swift */,
-				F4A3568A1FAE349200F748FD /* ChecklistItem.swift */,
-				F4F566951FB0B65200D26B90 /* Checklist.swift */,
 				F4CB7C441FACE93600B779B9 /* Main.storyboard */,
 				F4CB7C471FACE93600B779B9 /* Assets.xcassets */,
 				F4CB7C491FACE93600B779B9 /* LaunchScreen.storyboard */,
@@ -164,6 +191,7 @@
 				F4A3568D1FAE362000F748FD /* ChecklistTableViewCell.swift in Sources */,
 				F4F566961FB0B65200D26B90 /* Checklist.swift in Sources */,
 				F4A356891FAE316100F748FD /* ChecklistTableViewController.swift in Sources */,
+				F42349891FB28627004B260E /* ListDetailViewController.swift in Sources */,
 				F4A3568B1FAE349200F748FD /* ChecklistItem.swift in Sources */,
 				F4CB7C411FACE93600B779B9 /* AppDelegate.swift in Sources */,
 			);

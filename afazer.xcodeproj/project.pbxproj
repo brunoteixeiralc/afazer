@@ -99,14 +99,14 @@
 		F4CB7C3F1FACE93600B779B9 /* afazer */ = {
 			isa = PBXGroup;
 			children = (
+				F4CB7C521FACEA0300B779B9 /* .gitignore */,
 				F423498C1FB29526004B260E /* vc */,
 				F423498B1FB2951E004B260E /* cell */,
 				F423498A1FB29519004B260E /* model */,
-				F4CB7C521FACEA0300B779B9 /* .gitignore */,
 				F4CB7C401FACE93600B779B9 /* AppDelegate.swift */,
 				F4CB7C441FACE93600B779B9 /* Main.storyboard */,
-				F4CB7C471FACE93600B779B9 /* Assets.xcassets */,
 				F4CB7C491FACE93600B779B9 /* LaunchScreen.storyboard */,
+				F4CB7C471FACE93600B779B9 /* Assets.xcassets */,
 				F4CB7C4C1FACE93600B779B9 /* Info.plist */,
 			);
 			path = afazer;

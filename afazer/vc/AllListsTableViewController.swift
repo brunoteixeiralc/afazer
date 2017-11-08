@@ -60,6 +60,10 @@ class AllListsTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 54
+    }
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
          let checklist = lists[indexPath.row]
         performSegue(withIdentifier: "ShowChecklist", sender: checklist)

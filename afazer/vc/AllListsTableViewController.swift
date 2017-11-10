@@ -33,6 +33,11 @@ class AllListsTableViewController: UITableViewController {
         super.init(coder: aDecoder)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        tableView.reloadData()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -40,6 +45,10 @@ class AllListsTableViewController: UITableViewController {
             let item = ChecklistItem()
             item.name = "Item for \(list.name)"
             list.items.append(item)
+        }
+        
+        if lists.count > 0{
+            sortList()
         }
     }
 
@@ -61,7 +70,7 @@ class AllListsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 54
+        return 66
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -92,6 +101,12 @@ class AllListsTableViewController: UITableViewController {
             }
         }
     }
+    
+    func sortList(){
+        lists.sort { (checklist1, checklist2) -> Bool in
+            return checklist1.name.localizedStandardCompare(checklist2.name) == .orderedAscending
+        }
+    }
 }
 
 extension AllListsTableViewController: ListDetailViewControllerDelegate{
@@ -108,6 +123,9 @@ extension AllListsTableViewController: ListDetailViewControllerDelegate{
         let indexPaths = [indexPath]
         tableView.insertRows(at: indexPaths, with: .automatic)
         
+        sortList()
+        tableView.reloadData()
+        
         navigationController?.popViewController(animated: true)
     }
     
@@ -118,6 +136,9 @@ extension AllListsTableViewController: ListDetailViewControllerDelegate{
                 (cell as! AllListsTableViewCell).item = checklist
             }
         }
+        
+        sortList()
+        tableView.reloadData()
         
         navigationController?.popViewController(animated: true)
     }

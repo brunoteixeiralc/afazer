@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -180,24 +181,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="AllList" rowHeight="54" id="BpO-W5-wN5" customClass="AllListsTableViewCell" customModule="afazer" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="320" height="54"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="AllList" rowHeight="66" id="BpO-W5-wN5" customClass="AllListsTableViewCell" customModule="afazer" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="320" height="66"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BpO-W5-wN5" id="FL5-fb-qfQ">
-                                    <rect key="frame" x="0.0" y="0.0" width="252" height="53.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="252" height="65.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AA7-Pa-FCt">
-                                            <rect key="frame" x="8" y="0.0" width="43" height="28"/>
+                                            <rect key="frame" x="36" y="5" width="43" height="28"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="28" id="oZm-JY-qzQ"/>
+                                                <constraint firstAttribute="height" constant="28" id="w8t-gE-Ngg"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Faltam 2 ainda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4j-9Z-21a">
-                                            <rect key="frame" x="8" y="30" width="80" height="18"/>
+                                            <rect key="frame" x="8" y="41" width="80" height="18"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="18" id="4Fu-af-azh"/>
                                             </constraints>
@@ -205,19 +206,27 @@
                                             <color key="textColor" red="0.0" green="0.62352941179999999" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Appointments" translatesAutoresizingMaskIntoConstraints="NO" id="Vze-pu-tSw">
+                                            <rect key="frame" x="8" y="8" width="22" height="22"/>
+                                        </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="M4j-9Z-21a" firstAttribute="top" secondItem="AA7-Pa-FCt" secondAttribute="bottom" constant="2" id="7pE-FO-fRe"/>
-                                        <constraint firstItem="AA7-Pa-FCt" firstAttribute="leading" secondItem="FL5-fb-qfQ" secondAttribute="leading" constant="8" id="HAF-S6-FQC"/>
-                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="AA7-Pa-FCt" secondAttribute="trailing" constant="20" symbolic="YES" id="OoP-mF-GvV"/>
-                                        <constraint firstItem="AA7-Pa-FCt" firstAttribute="top" secondItem="FL5-fb-qfQ" secondAttribute="top" id="Zoy-H6-97K"/>
+                                        <constraint firstItem="AA7-Pa-FCt" firstAttribute="leading" secondItem="Vze-pu-tSw" secondAttribute="trailing" constant="6" id="6PV-R0-thu"/>
+                                        <constraint firstItem="AA7-Pa-FCt" firstAttribute="top" secondItem="FL5-fb-qfQ" secondAttribute="topMargin" constant="-6" id="BJQ-p9-Iq9"/>
+                                        <constraint firstItem="M4j-9Z-21a" firstAttribute="top" secondItem="AA7-Pa-FCt" secondAttribute="bottom" constant="8" symbolic="YES" id="OCM-lA-shD"/>
+                                        <constraint firstItem="M4j-9Z-21a" firstAttribute="top" secondItem="Vze-pu-tSw" secondAttribute="bottom" constant="11" id="WlR-Go-lwn"/>
+                                        <constraint firstItem="Vze-pu-tSw" firstAttribute="leading" secondItem="FL5-fb-qfQ" secondAttribute="leading" constant="8" id="c0m-m0-oLv"/>
                                         <constraint firstItem="M4j-9Z-21a" firstAttribute="leading" secondItem="FL5-fb-qfQ" secondAttribute="leading" constant="8" id="gFX-5w-SzL"/>
+                                        <constraint firstItem="AA7-Pa-FCt" firstAttribute="leading" secondItem="FL5-fb-qfQ" secondAttribute="leading" constant="36" id="kow-xd-buH"/>
+                                        <constraint firstItem="AA7-Pa-FCt" firstAttribute="centerY" secondItem="Vze-pu-tSw" secondAttribute="centerY" id="w1u-ep-1e0"/>
+                                        <constraint firstItem="Vze-pu-tSw" firstAttribute="top" secondItem="FL5-fb-qfQ" secondAttribute="top" constant="8" id="wF6-Gb-rXQ"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="M4j-9Z-21a" secondAttribute="trailing" constant="20" symbolic="YES" id="xRU-It-VwH"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="tintColor" red="0.0" green="0.62352941179999999" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="name" destination="AA7-Pa-FCt" id="nk6-JQ-X27"/>
+                                    <outlet property="remain" destination="M4j-9Z-21a" id="cvg-zu-1j0"/>
                                     <segue destination="FKy-ji-8OJ" kind="show" identifier="EditChecklist" trigger="accessoryAction" id="lSP-gR-kb7"/>
                                 </connections>
                             </tableViewCell>
@@ -309,6 +318,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Appointments" width="36" height="36"/>
         <image name="check" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>

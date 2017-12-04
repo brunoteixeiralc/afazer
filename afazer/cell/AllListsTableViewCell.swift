@@ -12,6 +12,7 @@ class AllListsTableViewCell: UITableViewCell {
 
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var remain: UILabel!
+    @IBOutlet weak var icon: UIImageView!
     
     var item:Checklist! {
         didSet{
@@ -21,6 +22,7 @@ class AllListsTableViewCell: UITableViewCell {
     
     func updateUI(){
         name.text = item.name
+        icon.image = UIImage(named:item.iconName)
         let count = item.countUncheckedItems()
         if item.items.count == 0 {
            remain.text = "(Sem nenhum item)."

@@ -19,10 +19,12 @@ class ListDetailViewController: UITableViewController {
 
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var done: UIBarButtonItem!
+    @IBOutlet weak var iconImage: UIImageView!
     
     weak var delegate: ListDetailViewControllerDelegate?
     
     var checklistToEdit: Checklist?
+    var iconName = "No Icon"
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
@@ -39,7 +41,10 @@ class ListDetailViewController: UITableViewController {
             title = "Editar Checklist"
             name.text = checklist.name
             done.isEnabled = true
+            iconName = checklist.iconName
         }
+        
+        iconImage.image = UIImage(named:iconName)
     }
     
     @IBAction func tapCancel(){
@@ -49,12 +54,31 @@ class ListDetailViewController: UITableViewController {
     @IBAction func tapDone(){
         if let checklist = checklistToEdit{
             checklist.name = name.text!
+            checklist.iconName = iconName
             delegate?.listDetailViewController(self, didFinishEditing: checklist)
+        
         }else{
             let checklist = Checklist()
             checklist.name = name.text!
+            checklist.iconName = iconName
             delegate?.listDetailViewController(self, didFinishAdding: checklist)
         }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "PickIcon"{
+            let controller = segue.destination as! IconPickerTableViewController
+            controller.delegate = self
+        }
+    }
+}
+
+extension ListDetailViewController: IconPickerTableViewControllerDelegate{
+    
+    func iconPicker(_ picker: IconPickerTableViewController, didPick iconame: String) {
+        self.iconName = iconame
+        iconImage.image = UIImage(named:iconName)
+        navigationController?.popViewController(animated: true)
     }
 }
 

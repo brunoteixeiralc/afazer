@@ -11,6 +11,8 @@ import UIKit
 class ChecklistItem {
     var name = ""
     var checked = false
+    var shouldRemind = false
+    var dueDate = Date()
     
     func toggleChecked() {
         checked = !checked

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 protocol AddItemViewControllerDelegate: class {
     func addItemViewControllerDidCancel(_ controller: AddItemViewController)
@@ -149,6 +150,17 @@ class AddItemViewController: UITableViewController {
         }
     }
     
+    @IBAction func shouldRemindToggled(_ switchControl: UISwitch){
+        name.resignFirstResponder()
+        
+        if switchControl.isOn{
+            let center = UNUserNotificationCenter.current()
+            center.requestAuthorization(options: [.alert,.sound], completionHandler: { (granted, error) in
+                
+            })
+        }
+    }
+    
     @IBAction func dateChanged(_ datePicker:UIDatePicker){
         dueDate = datePicker.date
         updateDueDate()
@@ -164,6 +176,8 @@ class AddItemViewController: UITableViewController {
             itemToEdit.name = name.text!
             itemToEdit.shouldRemind = shouldRemindSwitch.isOn
             itemToEdit.dueDate = dueDate
+
+            itemToEdit.scheduleNotification()
             
             delegate?.addItemViewController(self, edit: itemToEdit)
         
@@ -173,6 +187,8 @@ class AddItemViewController: UITableViewController {
             item.checked = false
             item.shouldRemind = shouldRemindSwitch.isOn
             item.dueDate = dueDate
+            
+            item.scheduleNotification()
             
             delegate?.addItemViewController(self, add: item)
         }

@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import UserNotifications
 
 class ChecklistTableViewCell: UITableViewCell {
     
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var check: UIImageView!
-
+    
     var item:ChecklistItem! {
         didSet{
            updateUI()

@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import UserNotifications
+
+//TODO - melhorar o identifier local notification
 
 class ChecklistItem {
     var name = ""
@@ -14,7 +17,41 @@ class ChecklistItem {
     var shouldRemind = false
     var dueDate = Date()
     
+    deinit {
+        removeNotification()
+    }
+    
     func toggleChecked() {
         checked = !checked
+    }
+    
+    func scheduleNotification(){
+        removeNotification()
+        
+        if shouldRemind && dueDate > Date(){
+            
+            let content =  UNMutableNotificationContent()
+            content.title = "Lembrete:"
+            content.body = name
+            content.sound = UNNotificationSound.default()
+            
+            let calendar = Calendar(identifier: .gregorian)
+            let components = calendar.dateComponents([.month,.day,.hour,.minute], from: dueDate)
+            
+            let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
+            
+            let request = UNNotificationRequest(identifier: "\(name)", content: content, trigger: trigger)
+            
+            let center = UNUserNotificationCenter.current()
+            center.add(request)
+            
+            print("Scheduled: \(request)")
+            
+        }
+    }
+    
+    func removeNotification(){
+        let center = UNUserNotificationCenter.current()
+        center.removeDeliveredNotifications(withIdentifiers: ["\(name)"])
     }
 }

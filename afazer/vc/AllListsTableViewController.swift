@@ -14,20 +14,15 @@ class AllListsTableViewController: UITableViewController {
     
     required init?(coder aDecoder: NSCoder) {
         lists = [Checklist]()
-        let row0item = Checklist()
-        row0item.name = "Lista 1"
+        let row0item = Checklist(name: "Lista 1", items: [])
         lists.append(row0item)
-        let row1item = Checklist()
-        row1item.name = "Lista 2"
+        let row1item = Checklist(name: "Lista 2", items: [])
         lists.append(row1item)
-        let row2item = Checklist()
-        row2item.name = "Lista 3"
+        let row2item = Checklist(name: "Lista 3", items: [])
         lists.append(row2item)
-        let row3item = Checklist()
-        row3item.name = "Lista 4"
+        let row3item = Checklist(name: "Lista 4", items: [])
         lists.append(row3item)
-        let row4item = Checklist()
-        row4item.name = "Lista 5"
+        let row4item = Checklist(name: "Lista 5", items: [])
         lists.append(row4item)
         
         super.init(coder: aDecoder)
@@ -36,6 +31,9 @@ class AllListsTableViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         tableView.reloadData()
+        tableView.dragDelegate = self
+        tableView.dragInteractionEnabled = true
+        tableView.dropDelegate = self
     }
     
     override func viewDidLoad() {
@@ -106,6 +104,45 @@ class AllListsTableViewController: UITableViewController {
         lists.sort { (checklist1, checklist2) -> Bool in
             return checklist1.name.localizedStandardCompare(checklist2.name) == .orderedAscending
         }
+    }
+}
+
+extension AllListsTableViewController: UITableViewDragDelegate{
+    
+    func tableView(_ tableView: UITableView, itemsForBeginning session: UIDragSession, at indexPath: IndexPath) -> [UIDragItem] {
+        let item = lists[indexPath.row]
+        let provider = NSItemProvider(object: item)
+        let dragItem = UIDragItem(itemProvider: provider)
+        
+        return [dragItem]
+    }
+}
+
+extension AllListsTableViewController: UITableViewDropDelegate{
+    
+    func tableView(_ tableView: UITableView, performDropWith coordinator: UITableViewDropCoordinator) {
+        guard let destinationIndexPath = coordinator.destinationIndexPath else { return }
+        
+        DispatchQueue.main.async { [weak self] in
+            tableView.beginUpdates()
+            
+            coordinator.items.forEach({ (item) in
+                guard let sourceIndexPath = item.sourceIndexPath, let `self` = self else {return}
+                let row = self.lists.remove(at: sourceIndexPath.row)
+                self.lists.insert(row, at: destinationIndexPath.row)
+                tableView.moveRow(at: sourceIndexPath, to: destinationIndexPath)
+            })
+            
+            tableView.endUpdates()
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, canHandle session: UIDropSession) -> Bool {
+        return session.canLoadObjects(ofClass: Checklist.self)
+    }
+    
+    func tableView(_ tableView: UITableView, dropSessionDidUpdate session: UIDropSession, withDestinationIndexPath destinationIndexPath: IndexPath?) -> UITableViewDropProposal {
+        return UITableViewDropProposal(operation: .move, intent: .insertAtDestinationIndexPath)
     }
 }
 

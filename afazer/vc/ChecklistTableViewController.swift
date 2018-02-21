@@ -19,25 +19,15 @@ class ChecklistTableViewController: UITableViewController {
 
     required init?(coder aDecoder: NSCoder) {
         items = [ChecklistItem]()
-        let row0item = ChecklistItem()
-        row0item.name = "Walk the dog"
-        row0item.checked = false
+        let row0item = ChecklistItem(name: "Walk the dog")
         items.append(row0item)
-        let row1item = ChecklistItem()
-        row1item.name = "Brush my teeth"
-        row1item.checked = true
+        let row1item = ChecklistItem(name: "Brush my teeth")
         items.append(row1item)
-        let row2item = ChecklistItem()
-        row2item.name = "Learn iOS development"
-        row2item.checked = true
+        let row2item = ChecklistItem(name: "Learn iOS development")
         items.append(row2item)
-        let row3item = ChecklistItem()
-        row3item.name = "Soccer practice"
-        row3item.checked = false
+        let row3item = ChecklistItem(name: "Soccer practice")
         items.append(row3item)
-        let row4item = ChecklistItem()
-        row4item.name = "Eat ice cream"
-        row4item.checked = true
+        let row4item = ChecklistItem(name: "Eat ice cream")
         items.append(row4item)
         
         super.init(coder: aDecoder)
@@ -45,14 +35,15 @@ class ChecklistTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.dragDelegate = self
+        tableView.dropDelegate = self
+        tableView.dragInteractionEnabled = true
         
     }
     
     @IBAction func addChecklistItem(_ sender: Any) {
         let newRowIndex = items.count
-        let item = ChecklistItem()
-        item.name = "I am a new row"
-        item.checked = false
+        let item = ChecklistItem(name: "I am a new row")
         items.append(item)
         
         let indexPath = IndexPath(row: newRowIndex, section: 0)
@@ -104,6 +95,45 @@ class ChecklistTableViewController: UITableViewController {
                 controller.itemToEdit = checklist.items[indexPath.row]
             }
         }
+    }
+}
+
+extension ChecklistTableViewController: UITableViewDragDelegate{
+    
+    func tableView(_ tableView: UITableView, itemsForBeginning session: UIDragSession, at indexPath: IndexPath) -> [UIDragItem] {
+        let item = items[indexPath.row]
+        let provider = NSItemProvider(object: item)
+        let dragItem = UIDragItem(itemProvider: provider)
+        
+        return [dragItem]
+    }
+}
+
+extension ChecklistTableViewController: UITableViewDropDelegate{
+    
+    func tableView(_ tableView: UITableView, performDropWith coordinator: UITableViewDropCoordinator) {
+        guard let destinationIndexPath = coordinator.destinationIndexPath else { return }
+        
+        DispatchQueue.main.async { [weak self] in
+            tableView.beginUpdates()
+            
+            coordinator.items.forEach({ (item) in
+                guard let sourceIndexPath = item.sourceIndexPath, let `self` = self else {return}
+                let row = self.items.remove(at: sourceIndexPath.row)
+                self.items.insert(row, at: destinationIndexPath.row)
+                tableView.moveRow(at: sourceIndexPath, to: destinationIndexPath)
+            })
+            
+            tableView.endUpdates()
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, canHandle session: UIDropSession) -> Bool {
+        return session.canLoadObjects(ofClass: Checklist.self)
+    }
+    
+    func tableView(_ tableView: UITableView, dropSessionDidUpdate session: UIDropSession, withDestinationIndexPath destinationIndexPath: IndexPath?) -> UITableViewDropProposal {
+        return UITableViewDropProposal(operation: .move, intent: .insertAtDestinationIndexPath)
     }
 }
 

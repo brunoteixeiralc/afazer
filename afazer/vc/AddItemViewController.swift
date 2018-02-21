@@ -182,12 +182,8 @@ class AddItemViewController: UITableViewController {
             delegate?.addItemViewController(self, edit: itemToEdit)
         
         }else{
-            let item = ChecklistItem()
-            item.name = name.text!
-            item.checked = false
-            item.shouldRemind = shouldRemindSwitch.isOn
-            item.dueDate = dueDate
-            
+            let item = ChecklistItem(name: name.text!, checked: false, shouldRemind: shouldRemindSwitch.isOn, dueDate: dueDate)
+
             item.scheduleNotification()
             
             delegate?.addItemViewController(self, add: item)

@@ -40,8 +40,7 @@ class AllListsTableViewController: UITableViewController {
         super.viewDidLoad()
         
         for list in lists {
-            let item = ChecklistItem()
-            item.name = "Item for \(list.name)"
+            let item = ChecklistItem(name: "Item for \(list.name)")
             list.items.append(item)
         }
         

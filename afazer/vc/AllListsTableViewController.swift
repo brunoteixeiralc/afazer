@@ -34,6 +34,7 @@ class AllListsTableViewController: UITableViewController {
         tableView.dragDelegate = self
         tableView.dragInteractionEnabled = true
         tableView.dropDelegate = self
+
     }
     
     override func viewDidLoad() {
@@ -64,10 +65,6 @@ class AllListsTableViewController: UITableViewController {
         cell.item = lists[indexPath.row]
         
         return cell
-    }
-    
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 66
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

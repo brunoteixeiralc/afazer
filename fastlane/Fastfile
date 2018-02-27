@@ -15,15 +15,47 @@ platform :ios do
 
 desc "Run tests"
     lane :tests do
-        run_tests(project: "afazer.xcodeproj",
+    run_tests(code_coverage:true,
+        clean:true,
+        project: "afazer.xcodeproj",
         devices: ["iPhone 5s"],
-        scheme: "afazerUITests")
+        scheme: "afazerUITests",
+        slack_message:"Rodando os testes.",
+        slack_url:"https://hooks.slack.com/services/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",
+        slack_channel: "#general")
+
 end
 
 desc "Generate screenshots"
     lane :screenshots do
         capture_screenshots(scheme: "afazer")
         #upload_to_app_store(skip_binary_upload: true, skip_metadata: true)
+end
+
+desc "Beta app"
+    lane :beta do
+        sync_code_signing
+        increment_build_number(
+            build_number: latest_testflight_build_number + 1,
+            xcodeproj: "afazer.xcodeproj"
+        )
+        changelog = prompt(
+            text: "Changelog: ",
+            multi_line_end_keyword: "END"
+        )
+        build_app(scheme: "afazer",
+            project: "afazer.xcodeproj",
+            include_bitcode: true
+        )
+        upload_to_testflight(changelog: changelog)
+end
+
+error do |lane, exception|
+    slack(
+        slack_url:"https://hooks.slack.com/services/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",
+        message: exception.message,
+        success: false
+    )
 end
 
 end

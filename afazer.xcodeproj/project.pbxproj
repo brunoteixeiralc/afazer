@@ -84,7 +84,6 @@
 		F4DBE31D204502F4006A42F7 /* screenshots.html in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2DA204502F4006A42F7 /* screenshots.html */; };
 		F4DBE31E204502F4006A42F7 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2DB204502F4006A42F7 /* Appfile */; };
 		F4DBE320204502F4006A42F7 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2DD204502F4006A42F7 /* Fastfile */; };
-		F4DBE321204502F4006A42F7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2DE204502F4006A42F7 /* README.md */; };
 		F4DBE322204502F4006A42F7 /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2DF204502F4006A42F7 /* report.xml */; };
 		F4DBE323204502F4006A42F7 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2E0204502F4006A42F7 /* Snapfile */; };
 		F4F566921FB0B26500D26B90 /* AllListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */; };
@@ -184,7 +183,6 @@
 		F4DBE2DA204502F4006A42F7 /* screenshots.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = screenshots.html; sourceTree = "<group>"; };
 		F4DBE2DB204502F4006A42F7 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
 		F4DBE2DD204502F4006A42F7 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
-		F4DBE2DE204502F4006A42F7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4DBE2DF204502F4006A42F7 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
 		F4DBE2E0204502F4006A42F7 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapfile; sourceTree = "<group>"; };
 		F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsTableViewController.swift; sourceTree = "<group>"; };
@@ -292,7 +290,6 @@
 				F4DBE29C204502F4006A42F7 /* screenshots */,
 				F4DBE2DB204502F4006A42F7 /* Appfile */,
 				F4DBE2DD204502F4006A42F7 /* Fastfile */,
-				F4DBE2DE204502F4006A42F7 /* README.md */,
 				F4DBE2DF204502F4006A42F7 /* report.xml */,
 				F4DBE2E0204502F4006A42F7 /* Snapfile */,
 			);
@@ -514,7 +511,6 @@
 				F4DBE310204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist Item.png in Resources */,
 				F4DBE309204502F4006A42F7 /* iPhone 7 Plus-Add Checklist_framed.png in Resources */,
 				F4DBE2E5204502F4006A42F7 /* iPhone 7-Add Checklist.png in Resources */,
-				F4DBE321204502F4006A42F7 /* README.md in Resources */,
 				F4DBE2F1204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist.png in Resources */,
 				F4DBE2ED204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist Item.png in Resources */,
 				F4DBE318204502F4006A42F7 /* iPhone 7-Edit Checklist Item_framed.png in Resources */,

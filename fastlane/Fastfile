@@ -34,7 +34,7 @@ end
 
 desc "Beta app"
     lane :beta do
-        sync_code_signing
+        match(type: "development", readonly: true)
         increment_build_number(
             build_number: latest_testflight_build_number + 1,
             xcodeproj: "afazer.xcodeproj"
@@ -45,7 +45,8 @@ desc "Beta app"
         )
         build_app(scheme: "afazer",
             project: "afazer.xcodeproj",
-            include_bitcode: true
+            include_bitcode: true,
+            export_method:"development"
         )
         upload_to_testflight(changelog: changelog)
 end

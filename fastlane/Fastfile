@@ -7,14 +7,23 @@
 #
 
 # Uncomment the line if you want fastlane to automatically update itself
-# update_fastlane
+update_fastlane
 
 default_platform(:ios)
 
 platform :ios do
-  desc "Generate new localized screenshots"
-  lane :screenshots do
-    capture_screenshots(scheme: "afazer")
-    upload_to_app_store(skip_binary_upload: true, skip_metadata: true)
-  end
+
+desc "Run tests"
+    lane :tests do
+        run_tests(project: "afazer.xcodeproj",
+        devices: ["iPhone 5s"],
+        scheme: "afazerUITests")
+end
+
+desc "Generate screenshots"
+    lane :screenshots do
+        capture_screenshots(scheme: "afazer")
+        #upload_to_app_store(skip_binary_upload: true, skip_metadata: true)
+end
+
 end

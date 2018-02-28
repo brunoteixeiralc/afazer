@@ -66,7 +66,11 @@ desc "Release app"
             include_bitcode: true,
             export_method:"app-store"
         )
-        upload_to_app_store
+        upload_to_app_store(skip_metadata:true,
+            skip_screenshots:true,
+            submit_for_review:true,
+            automatic_release:true
+        )
         slack(message: "Successfully uploaded a new App Store build")
 end
 

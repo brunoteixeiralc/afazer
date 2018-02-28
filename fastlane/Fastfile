@@ -24,15 +24,16 @@ desc "Run tests"
         project: "afazer.xcodeproj",
         devices: ["iPhone 5s"],
         scheme: "afazerUITests",
-        slack_message:"Successfully run UI Tests")
+        slack_message:"Successfully run UI Tests",
+            success:true)
 
 end
 
 desc "Generate screenshots and upload to apple store"
     lane :screenshots do
         capture_screenshots(scheme: "afazer")
-        frame_screenshots(silver: true)
-        upload_to_app_store(skip_binary_upload: true, skip_metadata: true)
+        frameit(silver: true)
+        appstore(skip_binary_upload: true, skip_metadata: true)
         slack(message:"Successfully uploaded screenshots to itunes connect", success:true)
 end
 
@@ -53,25 +54,27 @@ desc "Beta app"
             include_bitcode: true,
             export_method:"development"
         )
-        upload_to_testflight(changelog: changelog)
-        slack(message: "Successfully uploaded to Test Flight")
+        pilot(changelog: changelog)
+        slack(message: "Successfully uploaded to Test Flight",
+            success:true)
 end
 
 desc "Release app"
     lane :release do
-        match(type: "distribution", readonly: true)
+        match(type: "appstore", readonly: true)
         build_app(scheme: "afazer",
             clean:true,
             project: "afazer.xcodeproj",
             include_bitcode: true,
             export_method:"app-store"
         )
-        upload_to_app_store(skip_metadata:true,
+        appstore(skip_metadata:true,
             skip_screenshots:true,
             submit_for_review:true,
             automatic_release:true
         )
-        slack(message: "Successfully uploaded a new App Store build")
+        slack(message: "Successfully uploaded a new App Store build",
+            success:true)
 end
 
 error do |lane, exception|

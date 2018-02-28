@@ -26,7 +26,7 @@ class afazerUITests: XCTestCase {
         
         snapshot("Main")
         let app = XCUIApplication()
-        app.navigationBars["Checklistss"].buttons["Add"].tap()
+        app.navigationBars["Checklists"].buttons["Add"].tap()
         snapshot("Add Checklist")
         app.navigationBars["Adicionar checklist"].buttons["Cancelar"].tap()
         let tablesQuery = app.tables

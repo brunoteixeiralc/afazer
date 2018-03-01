@@ -6,12 +6,6 @@
 #     https://docs.fastlane.tools/actions
 #
 
-#.env.default
-#SLACK_URL="https://hooks.slack.com/services/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"
-#DELIVER_USERNAME = "brunoteixeiralc@gmail.com"
-#DELIVER_APP_IDENTIFIER = "br.com.afazer"
-#DELIVER_ITMSTRANSPORTER_ADDITIONAL_UPLOAD_PARAMETERS = "-t DAV"
-
 #fastlane deliver download_metadata
 
 default_platform(:ios)

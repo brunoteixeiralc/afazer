@@ -12,6 +12,8 @@
 #DELIVER_APP_IDENTIFIER = "br.com.afazer"
 #DELIVER_ITMSTRANSPORTER_ADDITIONAL_UPLOAD_PARAMETERS = "-t DAV"
 
+#fastlane deliver download_metadata
+
 default_platform(:ios)
 
 platform :ios do
@@ -43,6 +45,20 @@ desc "Generate screenshots and upload to apple store"
         slack(message:"Successfully uploaded screenshots to itunes connect", success:true)
 end
 
+desc "Generate metadata"
+    lane :metadata do
+        appstore(skip_binary_upload: true,
+            skip_metadata: false,
+            skip_app_version_update: true,
+            force: true,
+            skip_screenshots:true,
+            price_tier: 0,
+            app_rating_config_path: "./fastlane/rating_config.json",
+            app_icon:"./iTunesArtwork@2x.png"
+        )
+        slack(message:"Successfully uploaded metadata to itunes connect", success:true)
+end
+
 desc "Beta app"
     lane :beta do
         match(type: "appstore", readonly: true)
@@ -51,7 +67,7 @@ desc "Beta app"
             xcodeproj: "afazer.xcodeproj"
         )
         changelog = prompt(
-            text: "Changelog: ",
+            text: "What's new : ",
             multi_line_end_keyword: "END"
         )
         build_app(scheme: "afazer",
@@ -61,11 +77,14 @@ desc "Beta app"
             export_method:"app-store"
         )
         pilot(changelog: changelog,
-            beta_app_feedback_email:"brunoteixeiralc@gmail.com"
+            beta_app_feedback_email:"brunoteixeiralc@gmail.com",
+            beta_app_description: changelog,
+            distribute_external:true
         )
         slack(message: "Successfully uploaded to Test Flight",
             success:true)
 end
+
 
 desc "Release app"
     lane :release do

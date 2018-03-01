@@ -25,6 +25,36 @@
 		F4DBE320204502F4006A42F7 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2DD204502F4006A42F7 /* Fastfile */; };
 		F4DBE323204502F4006A42F7 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2E0204502F4006A42F7 /* Snapfile */; };
 		F4DFF57C204728FE00CAA2F1 /* Matchfile in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF57B204728FE00CAA2F1 /* Matchfile */; };
+		F4DFF59F2048652F00CAA2F1 /* copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF57E2048652E00CAA2F1 /* copyright.txt */; };
+		F4DFF5A02048652F00CAA2F1 /* address_line1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5802048652E00CAA2F1 /* address_line1.txt */; };
+		F4DFF5A12048652F00CAA2F1 /* country.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5812048652E00CAA2F1 /* country.txt */; };
+		F4DFF5A22048652F00CAA2F1 /* city_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5822048652E00CAA2F1 /* city_name.txt */; };
+		F4DFF5A32048652F00CAA2F1 /* trade_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5832048652E00CAA2F1 /* trade_name.txt */; };
+		F4DFF5A42048652F00CAA2F1 /* is_displayed_on_app_store.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5842048652E00CAA2F1 /* is_displayed_on_app_store.txt */; };
+		F4DFF5A52048652F00CAA2F1 /* postal_code.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5852048652E00CAA2F1 /* postal_code.txt */; };
+		F4DFF5A62048652F00CAA2F1 /* state.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5862048652E00CAA2F1 /* state.txt */; };
+		F4DFF5A72048652F00CAA2F1 /* secondary_first_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5872048652E00CAA2F1 /* secondary_first_sub_category.txt */; };
+		F4DFF5A82048652F00CAA2F1 /* secondary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5882048652E00CAA2F1 /* secondary_category.txt */; };
+		F4DFF5A92048652F00CAA2F1 /* secondary_second_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5892048652E00CAA2F1 /* secondary_second_sub_category.txt */; };
+		F4DFF5AA2048652F00CAA2F1 /* primary_second_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF58A2048652E00CAA2F1 /* primary_second_sub_category.txt */; };
+		F4DFF5AB2048652F00CAA2F1 /* phone_number.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF58C2048652E00CAA2F1 /* phone_number.txt */; };
+		F4DFF5AC2048652F00CAA2F1 /* demo_user.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF58D2048652E00CAA2F1 /* demo_user.txt */; };
+		F4DFF5AD2048652F00CAA2F1 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF58E2048652E00CAA2F1 /* notes.txt */; };
+		F4DFF5AE2048652F00CAA2F1 /* email_address.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF58F2048652E00CAA2F1 /* email_address.txt */; };
+		F4DFF5AF2048652F00CAA2F1 /* last_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5902048652E00CAA2F1 /* last_name.txt */; };
+		F4DFF5B02048652F00CAA2F1 /* first_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5912048652E00CAA2F1 /* first_name.txt */; };
+		F4DFF5B12048652F00CAA2F1 /* demo_password.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5922048652E00CAA2F1 /* demo_password.txt */; };
+		F4DFF5B22048652F00CAA2F1 /* primary_first_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5932048652E00CAA2F1 /* primary_first_sub_category.txt */; };
+		F4DFF5B32048652F00CAA2F1 /* privacy_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5952048652E00CAA2F1 /* privacy_url.txt */; };
+		F4DFF5B42048652F00CAA2F1 /* subtitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5962048652E00CAA2F1 /* subtitle.txt */; };
+		F4DFF5B52048652F00CAA2F1 /* support_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5972048652E00CAA2F1 /* support_url.txt */; };
+		F4DFF5B62048652F00CAA2F1 /* keywords.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5982048652E00CAA2F1 /* keywords.txt */; };
+		F4DFF5B72048652F00CAA2F1 /* promotional_text.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5992048652E00CAA2F1 /* promotional_text.txt */; };
+		F4DFF5B82048652F00CAA2F1 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF59A2048652E00CAA2F1 /* release_notes.txt */; };
+		F4DFF5B92048652F00CAA2F1 /* name.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF59B2048652E00CAA2F1 /* name.txt */; };
+		F4DFF5BA2048652F00CAA2F1 /* marketing_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF59C2048652E00CAA2F1 /* marketing_url.txt */; };
+		F4DFF5BB2048652F00CAA2F1 /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF59D2048652E00CAA2F1 /* description.txt */; };
+		F4DFF5BC2048652F00CAA2F1 /* primary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF59E2048652E00CAA2F1 /* primary_category.txt */; };
 		F4F566921FB0B26500D26B90 /* AllListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */; };
 		F4F566941FB0B50C00D26B90 /* AllListsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */; };
 		F4F566961FB0B65200D26B90 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566951FB0B65200D26B90 /* Checklist.swift */; };
@@ -63,6 +93,36 @@
 		F4DBE2DD204502F4006A42F7 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
 		F4DBE2E0204502F4006A42F7 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapfile; sourceTree = "<group>"; };
 		F4DFF57B204728FE00CAA2F1 /* Matchfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Matchfile; sourceTree = "<group>"; };
+		F4DFF57E2048652E00CAA2F1 /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copyright.txt; sourceTree = "<group>"; };
+		F4DFF5802048652E00CAA2F1 /* address_line1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = address_line1.txt; sourceTree = "<group>"; };
+		F4DFF5812048652E00CAA2F1 /* country.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = country.txt; sourceTree = "<group>"; };
+		F4DFF5822048652E00CAA2F1 /* city_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = city_name.txt; sourceTree = "<group>"; };
+		F4DFF5832048652E00CAA2F1 /* trade_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_name.txt; sourceTree = "<group>"; };
+		F4DFF5842048652E00CAA2F1 /* is_displayed_on_app_store.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = is_displayed_on_app_store.txt; sourceTree = "<group>"; };
+		F4DFF5852048652E00CAA2F1 /* postal_code.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = postal_code.txt; sourceTree = "<group>"; };
+		F4DFF5862048652E00CAA2F1 /* state.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = state.txt; sourceTree = "<group>"; };
+		F4DFF5872048652E00CAA2F1 /* secondary_first_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secondary_first_sub_category.txt; sourceTree = "<group>"; };
+		F4DFF5882048652E00CAA2F1 /* secondary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secondary_category.txt; sourceTree = "<group>"; };
+		F4DFF5892048652E00CAA2F1 /* secondary_second_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secondary_second_sub_category.txt; sourceTree = "<group>"; };
+		F4DFF58A2048652E00CAA2F1 /* primary_second_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = primary_second_sub_category.txt; sourceTree = "<group>"; };
+		F4DFF58C2048652E00CAA2F1 /* phone_number.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = phone_number.txt; sourceTree = "<group>"; };
+		F4DFF58D2048652E00CAA2F1 /* demo_user.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demo_user.txt; sourceTree = "<group>"; };
+		F4DFF58E2048652E00CAA2F1 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
+		F4DFF58F2048652E00CAA2F1 /* email_address.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = email_address.txt; sourceTree = "<group>"; };
+		F4DFF5902048652E00CAA2F1 /* last_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = last_name.txt; sourceTree = "<group>"; };
+		F4DFF5912048652E00CAA2F1 /* first_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = first_name.txt; sourceTree = "<group>"; };
+		F4DFF5922048652E00CAA2F1 /* demo_password.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demo_password.txt; sourceTree = "<group>"; };
+		F4DFF5932048652E00CAA2F1 /* primary_first_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = primary_first_sub_category.txt; sourceTree = "<group>"; };
+		F4DFF5952048652E00CAA2F1 /* privacy_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = privacy_url.txt; sourceTree = "<group>"; };
+		F4DFF5962048652E00CAA2F1 /* subtitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = subtitle.txt; sourceTree = "<group>"; };
+		F4DFF5972048652E00CAA2F1 /* support_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = support_url.txt; sourceTree = "<group>"; };
+		F4DFF5982048652E00CAA2F1 /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		F4DFF5992048652E00CAA2F1 /* promotional_text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = promotional_text.txt; sourceTree = "<group>"; };
+		F4DFF59A2048652E00CAA2F1 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
+		F4DFF59B2048652E00CAA2F1 /* name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = name.txt; sourceTree = "<group>"; };
+		F4DFF59C2048652E00CAA2F1 /* marketing_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marketing_url.txt; sourceTree = "<group>"; };
+		F4DFF59D2048652E00CAA2F1 /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description.txt; sourceTree = "<group>"; };
+		F4DFF59E2048652E00CAA2F1 /* primary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = primary_category.txt; sourceTree = "<group>"; };
 		F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsTableViewController.swift; sourceTree = "<group>"; };
 		F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsTableViewCell.swift; sourceTree = "<group>"; };
 		F4F566951FB0B65200D26B90 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
@@ -165,6 +225,7 @@
 		F4DBE29B204502F4006A42F7 /* fastlane */ = {
 			isa = PBXGroup;
 			children = (
+				F4DFF57D2048652E00CAA2F1 /* metadata */,
 				F4DBE2DB204502F4006A42F7 /* Appfile */,
 				F4DBE2DD204502F4006A42F7 /* Fastfile */,
 				F4DBE2E0204502F4006A42F7 /* Snapfile */,
@@ -172,6 +233,67 @@
 			);
 			path = fastlane;
 			sourceTree = SOURCE_ROOT;
+		};
+		F4DFF57D2048652E00CAA2F1 /* metadata */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFF57E2048652E00CAA2F1 /* copyright.txt */,
+				F4DFF57F2048652E00CAA2F1 /* trade_representative_contact_information */,
+				F4DFF5872048652E00CAA2F1 /* secondary_first_sub_category.txt */,
+				F4DFF5882048652E00CAA2F1 /* secondary_category.txt */,
+				F4DFF5892048652E00CAA2F1 /* secondary_second_sub_category.txt */,
+				F4DFF58A2048652E00CAA2F1 /* primary_second_sub_category.txt */,
+				F4DFF58B2048652E00CAA2F1 /* review_information */,
+				F4DFF5932048652E00CAA2F1 /* primary_first_sub_category.txt */,
+				F4DFF5942048652E00CAA2F1 /* en-US */,
+				F4DFF59E2048652E00CAA2F1 /* primary_category.txt */,
+			);
+			path = metadata;
+			sourceTree = "<group>";
+		};
+		F4DFF57F2048652E00CAA2F1 /* trade_representative_contact_information */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFF5802048652E00CAA2F1 /* address_line1.txt */,
+				F4DFF5812048652E00CAA2F1 /* country.txt */,
+				F4DFF5822048652E00CAA2F1 /* city_name.txt */,
+				F4DFF5832048652E00CAA2F1 /* trade_name.txt */,
+				F4DFF5842048652E00CAA2F1 /* is_displayed_on_app_store.txt */,
+				F4DFF5852048652E00CAA2F1 /* postal_code.txt */,
+				F4DFF5862048652E00CAA2F1 /* state.txt */,
+			);
+			path = trade_representative_contact_information;
+			sourceTree = "<group>";
+		};
+		F4DFF58B2048652E00CAA2F1 /* review_information */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFF58C2048652E00CAA2F1 /* phone_number.txt */,
+				F4DFF58D2048652E00CAA2F1 /* demo_user.txt */,
+				F4DFF58E2048652E00CAA2F1 /* notes.txt */,
+				F4DFF58F2048652E00CAA2F1 /* email_address.txt */,
+				F4DFF5902048652E00CAA2F1 /* last_name.txt */,
+				F4DFF5912048652E00CAA2F1 /* first_name.txt */,
+				F4DFF5922048652E00CAA2F1 /* demo_password.txt */,
+			);
+			path = review_information;
+			sourceTree = "<group>";
+		};
+		F4DFF5942048652E00CAA2F1 /* en-US */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFF5952048652E00CAA2F1 /* privacy_url.txt */,
+				F4DFF5962048652E00CAA2F1 /* subtitle.txt */,
+				F4DFF5972048652E00CAA2F1 /* support_url.txt */,
+				F4DFF5982048652E00CAA2F1 /* keywords.txt */,
+				F4DFF5992048652E00CAA2F1 /* promotional_text.txt */,
+				F4DFF59A2048652E00CAA2F1 /* release_notes.txt */,
+				F4DFF59B2048652E00CAA2F1 /* name.txt */,
+				F4DFF59C2048652E00CAA2F1 /* marketing_url.txt */,
+				F4DFF59D2048652E00CAA2F1 /* description.txt */,
+			);
+			path = "en-US";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -256,15 +378,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DFF5AD2048652F00CAA2F1 /* notes.txt in Resources */,
+				F4DFF5AF2048652F00CAA2F1 /* last_name.txt in Resources */,
+				F4DFF5A22048652F00CAA2F1 /* city_name.txt in Resources */,
+				F4DFF5AE2048652F00CAA2F1 /* email_address.txt in Resources */,
+				F4DFF5A02048652F00CAA2F1 /* address_line1.txt in Resources */,
+				F4DFF5AC2048652F00CAA2F1 /* demo_user.txt in Resources */,
+				F4DFF59F2048652F00CAA2F1 /* copyright.txt in Resources */,
+				F4DFF5B92048652F00CAA2F1 /* name.txt in Resources */,
 				F4DBE2872044E444006A42F7 /* Gemfile.lock in Resources */,
 				F4DBE323204502F4006A42F7 /* Snapfile in Resources */,
 				F4DBE2852044E42D006A42F7 /* Gemfile in Resources */,
+				F4DFF5BC2048652F00CAA2F1 /* primary_category.txt in Resources */,
+				F4DFF5B72048652F00CAA2F1 /* promotional_text.txt in Resources */,
 				F4DBE31E204502F4006A42F7 /* Appfile in Resources */,
+				F4DFF5B32048652F00CAA2F1 /* privacy_url.txt in Resources */,
+				F4DFF5B52048652F00CAA2F1 /* support_url.txt in Resources */,
+				F4DFF5B22048652F00CAA2F1 /* primary_first_sub_category.txt in Resources */,
 				F4DFF57C204728FE00CAA2F1 /* Matchfile in Resources */,
+				F4DFF5A92048652F00CAA2F1 /* secondary_second_sub_category.txt in Resources */,
+				F4DFF5A72048652F00CAA2F1 /* secondary_first_sub_category.txt in Resources */,
+				F4DFF5BA2048652F00CAA2F1 /* marketing_url.txt in Resources */,
+				F4DFF5B42048652F00CAA2F1 /* subtitle.txt in Resources */,
 				F4CB7C531FACEA0400B779B9 /* .gitignore in Resources */,
 				F4DBE320204502F4006A42F7 /* Fastfile in Resources */,
+				F4DFF5B82048652F00CAA2F1 /* release_notes.txt in Resources */,
+				F4DFF5A52048652F00CAA2F1 /* postal_code.txt in Resources */,
+				F4DFF5B02048652F00CAA2F1 /* first_name.txt in Resources */,
+				F4DFF5B12048652F00CAA2F1 /* demo_password.txt in Resources */,
+				F4DFF5AA2048652F00CAA2F1 /* primary_second_sub_category.txt in Resources */,
+				F4DFF5A12048652F00CAA2F1 /* country.txt in Resources */,
 				F4CB7C481FACE93600B779B9 /* Assets.xcassets in Resources */,
+				F4DFF5AB2048652F00CAA2F1 /* phone_number.txt in Resources */,
+				F4DFF5A32048652F00CAA2F1 /* trade_name.txt in Resources */,
 				F4CB7C461FACE93600B779B9 /* Main.storyboard in Resources */,
+				F4DFF5BB2048652F00CAA2F1 /* description.txt in Resources */,
+				F4DFF5A42048652F00CAA2F1 /* is_displayed_on_app_store.txt in Resources */,
+				F4DFF5A82048652F00CAA2F1 /* secondary_category.txt in Resources */,
+				F4DFF5B62048652F00CAA2F1 /* keywords.txt in Resources */,
+				F4DFF5A62048652F00CAA2F1 /* state.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

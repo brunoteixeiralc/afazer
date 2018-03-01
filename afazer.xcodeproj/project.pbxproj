@@ -56,6 +56,7 @@
 		F4DFF5BB2048652F00CAA2F1 /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF59D2048652E00CAA2F1 /* description.txt */; };
 		F4DFF5BC2048652F00CAA2F1 /* primary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF59E2048652E00CAA2F1 /* primary_category.txt */; };
 		F4DFF5BE2048825E00CAA2F1 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5BD2048825E00CAA2F1 /* iTunesArtwork@2x.png */; };
+		F4DFF5C02048840900CAA2F1 /* rating_config.json in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5BF2048840900CAA2F1 /* rating_config.json */; };
 		F4F566921FB0B26500D26B90 /* AllListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */; };
 		F4F566941FB0B50C00D26B90 /* AllListsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */; };
 		F4F566961FB0B65200D26B90 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566951FB0B65200D26B90 /* Checklist.swift */; };
@@ -125,6 +126,7 @@
 		F4DFF59D2048652E00CAA2F1 /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description.txt; sourceTree = "<group>"; };
 		F4DFF59E2048652E00CAA2F1 /* primary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = primary_category.txt; sourceTree = "<group>"; };
 		F4DFF5BD2048825E00CAA2F1 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = SOURCE_ROOT; };
+		F4DFF5BF2048840900CAA2F1 /* rating_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = rating_config.json; path = fastlane/rating_config.json; sourceTree = SOURCE_ROOT; };
 		F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsTableViewController.swift; sourceTree = "<group>"; };
 		F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsTableViewCell.swift; sourceTree = "<group>"; };
 		F4F566951FB0B65200D26B90 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 		F4DBE29B204502F4006A42F7 /* fastlane */ = {
 			isa = PBXGroup;
 			children = (
+				F4DFF5BF2048840900CAA2F1 /* rating_config.json */,
 				F4DFF57D2048652E00CAA2F1 /* metadata */,
 				F4DBE2DB204502F4006A42F7 /* Appfile */,
 				F4DBE2DD204502F4006A42F7 /* Fastfile */,
@@ -400,6 +403,7 @@
 				F4DFF5B52048652F00CAA2F1 /* support_url.txt in Resources */,
 				F4DFF5B22048652F00CAA2F1 /* primary_first_sub_category.txt in Resources */,
 				F4DFF57C204728FE00CAA2F1 /* Matchfile in Resources */,
+				F4DFF5C02048840900CAA2F1 /* rating_config.json in Resources */,
 				F4DFF5A92048652F00CAA2F1 /* secondary_second_sub_category.txt in Resources */,
 				F4DFF5A72048652F00CAA2F1 /* secondary_first_sub_category.txt in Resources */,
 				F4DFF5BA2048652F00CAA2F1 /* marketing_url.txt in Resources */,

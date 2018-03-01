@@ -55,6 +55,7 @@
 		F4DFF5BA2048652F00CAA2F1 /* marketing_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF59C2048652E00CAA2F1 /* marketing_url.txt */; };
 		F4DFF5BB2048652F00CAA2F1 /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF59D2048652E00CAA2F1 /* description.txt */; };
 		F4DFF5BC2048652F00CAA2F1 /* primary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF59E2048652E00CAA2F1 /* primary_category.txt */; };
+		F4DFF5BE2048825E00CAA2F1 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5BD2048825E00CAA2F1 /* iTunesArtwork@2x.png */; };
 		F4F566921FB0B26500D26B90 /* AllListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */; };
 		F4F566941FB0B50C00D26B90 /* AllListsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */; };
 		F4F566961FB0B65200D26B90 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566951FB0B65200D26B90 /* Checklist.swift */; };
@@ -123,6 +124,7 @@
 		F4DFF59C2048652E00CAA2F1 /* marketing_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marketing_url.txt; sourceTree = "<group>"; };
 		F4DFF59D2048652E00CAA2F1 /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description.txt; sourceTree = "<group>"; };
 		F4DFF59E2048652E00CAA2F1 /* primary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = primary_category.txt; sourceTree = "<group>"; };
+		F4DFF5BD2048825E00CAA2F1 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = SOURCE_ROOT; };
 		F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsTableViewController.swift; sourceTree = "<group>"; };
 		F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsTableViewCell.swift; sourceTree = "<group>"; };
 		F4F566951FB0B65200D26B90 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 		F4DFF57D2048652E00CAA2F1 /* metadata */ = {
 			isa = PBXGroup;
 			children = (
+				F4DFF5BD2048825E00CAA2F1 /* iTunesArtwork@2x.png */,
 				F4DFF57E2048652E00CAA2F1 /* copyright.txt */,
 				F4DFF57F2048652E00CAA2F1 /* trade_representative_contact_information */,
 				F4DFF5872048652E00CAA2F1 /* secondary_first_sub_category.txt */,
@@ -389,6 +392,7 @@
 				F4DBE2872044E444006A42F7 /* Gemfile.lock in Resources */,
 				F4DBE323204502F4006A42F7 /* Snapfile in Resources */,
 				F4DBE2852044E42D006A42F7 /* Gemfile in Resources */,
+				F4DFF5BE2048825E00CAA2F1 /* iTunesArtwork@2x.png in Resources */,
 				F4DFF5BC2048652F00CAA2F1 /* primary_category.txt in Resources */,
 				F4DFF5B72048652F00CAA2F1 /* promotional_text.txt in Resources */,
 				F4DBE31E204502F4006A42F7 /* Appfile in Resources */,

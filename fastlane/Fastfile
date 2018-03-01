@@ -60,7 +60,9 @@ desc "Beta app"
             include_bitcode: true,
             export_method:"app-store"
         )
-        pilot(changelog: changelog)
+        pilot(changelog: changelog,
+            beta_app_feedback_email:"brunoteixeiralc@gmail.com"
+        )
         slack(message: "Successfully uploaded to Test Flight",
             success:true)
 end

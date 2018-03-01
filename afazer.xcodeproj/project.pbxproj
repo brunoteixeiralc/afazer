@@ -21,67 +21,6 @@
 		F4DBE2872044E444006A42F7 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2862044E444006A42F7 /* Gemfile.lock */; };
 		F4DBE2922044EA63006A42F7 /* afazerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DBE2912044EA63006A42F7 /* afazerUITests.swift */; };
 		F4DBE29A2044EA86006A42F7 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DBE2992044EA86006A42F7 /* SnapshotHelper.swift */; };
-		F4DBE2E1204502F4006A42F7 /* iPhone 7-Checklist Items.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE29E204502F4006A42F7 /* iPhone 7-Checklist Items.png */; };
-		F4DBE2E2204502F4006A42F7 /* iPhone 7 Plus-Checklist Items_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE29F204502F4006A42F7 /* iPhone 7 Plus-Checklist Items_framed.png */; };
-		F4DBE2E3204502F4006A42F7 /* iPhone 7 Plus-Checklist Items.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2A0204502F4006A42F7 /* iPhone 7 Plus-Checklist Items.png */; };
-		F4DBE2E4204502F4006A42F7 /* iPhone 6-Checklist Items.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2A1204502F4006A42F7 /* iPhone 6-Checklist Items.png */; };
-		F4DBE2E5204502F4006A42F7 /* iPhone 7-Add Checklist.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2A2204502F4006A42F7 /* iPhone 7-Add Checklist.png */; };
-		F4DBE2E6204502F4006A42F7 /* iPhone 7 Plus-Add Checklist Item.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2A3204502F4006A42F7 /* iPhone 7 Plus-Add Checklist Item.png */; };
-		F4DBE2E7204502F4006A42F7 /* iPhone 6 Plus-Main.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2A4204502F4006A42F7 /* iPhone 6 Plus-Main.png */; };
-		F4DBE2E8204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2A5204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist_framed.png */; };
-		F4DBE2E9204502F4006A42F7 /* iPhone 5s-Add Checklist.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2A6204502F4006A42F7 /* iPhone 5s-Add Checklist.png */; };
-		F4DBE2EA204502F4006A42F7 /* iPhone 6-Edit Checklist Item.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2A7204502F4006A42F7 /* iPhone 6-Edit Checklist Item.png */; };
-		F4DBE2EB204502F4006A42F7 /* iPhone 5s-Add Checklist Item_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2A8204502F4006A42F7 /* iPhone 5s-Add Checklist Item_framed.png */; };
-		F4DBE2EC204502F4006A42F7 /* iPhone 6 Plus-Add Checklist.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2A9204502F4006A42F7 /* iPhone 6 Plus-Add Checklist.png */; };
-		F4DBE2ED204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist Item.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2AA204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist Item.png */; };
-		F4DBE2EE204502F4006A42F7 /* iPhone 6-Add Checklist.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2AB204502F4006A42F7 /* iPhone 6-Add Checklist.png */; };
-		F4DBE2EF204502F4006A42F7 /* iPhone 5s-Checklist Items_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2AC204502F4006A42F7 /* iPhone 5s-Checklist Items_framed.png */; };
-		F4DBE2F0204502F4006A42F7 /* iPhone 6-Add Checklist Item_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2AD204502F4006A42F7 /* iPhone 6-Add Checklist Item_framed.png */; };
-		F4DBE2F1204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2AE204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist.png */; };
-		F4DBE2F2204502F4006A42F7 /* iPhone 6 Plus-Add Checklist Item.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2AF204502F4006A42F7 /* iPhone 6 Plus-Add Checklist Item.png */; };
-		F4DBE2F3204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist Item_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2B0204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist Item_framed.png */; };
-		F4DBE2F4204502F4006A42F7 /* iPhone 5s-Edit Checklist Item.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2B1204502F4006A42F7 /* iPhone 5s-Edit Checklist Item.png */; };
-		F4DBE2F5204502F4006A42F7 /* iPhone 7 Plus-Add Checklist.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2B2204502F4006A42F7 /* iPhone 7 Plus-Add Checklist.png */; };
-		F4DBE2F6204502F4006A42F7 /* iPhone 6-Edit Checklist.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2B3204502F4006A42F7 /* iPhone 6-Edit Checklist.png */; };
-		F4DBE2F7204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2B4204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist_framed.png */; };
-		F4DBE2F8204502F4006A42F7 /* iPhone 5s-Checklist Items.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2B5204502F4006A42F7 /* iPhone 5s-Checklist Items.png */; };
-		F4DBE2F9204502F4006A42F7 /* iPhone 5s-Edit Checklist_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2B6204502F4006A42F7 /* iPhone 5s-Edit Checklist_framed.png */; };
-		F4DBE2FA204502F4006A42F7 /* iPhone 7-Edit Checklist_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2B7204502F4006A42F7 /* iPhone 7-Edit Checklist_framed.png */; };
-		F4DBE2FB204502F4006A42F7 /* iPhone 6 Plus-Checklist Items.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2B8204502F4006A42F7 /* iPhone 6 Plus-Checklist Items.png */; };
-		F4DBE2FC204502F4006A42F7 /* iPhone 7-Add Checklist Item_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2B9204502F4006A42F7 /* iPhone 7-Add Checklist Item_framed.png */; };
-		F4DBE2FD204502F4006A42F7 /* iPhone 7 Plus-Main_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2BA204502F4006A42F7 /* iPhone 7 Plus-Main_framed.png */; };
-		F4DBE2FE204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2BB204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist.png */; };
-		F4DBE2FF204502F4006A42F7 /* iPhone 7-Checklist Items_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2BC204502F4006A42F7 /* iPhone 7-Checklist Items_framed.png */; };
-		F4DBE300204502F4006A42F7 /* iPhone 5s-Main_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2BD204502F4006A42F7 /* iPhone 5s-Main_framed.png */; };
-		F4DBE301204502F4006A42F7 /* iPhone 6-Edit Checklist Item_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2BE204502F4006A42F7 /* iPhone 6-Edit Checklist Item_framed.png */; };
-		F4DBE302204502F4006A42F7 /* iPhone 7-Edit Checklist Item.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2BF204502F4006A42F7 /* iPhone 7-Edit Checklist Item.png */; };
-		F4DBE303204502F4006A42F7 /* iPhone 5s-Add Checklist_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2C0204502F4006A42F7 /* iPhone 5s-Add Checklist_framed.png */; };
-		F4DBE304204502F4006A42F7 /* iPhone 6-Edit Checklist_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2C1204502F4006A42F7 /* iPhone 6-Edit Checklist_framed.png */; };
-		F4DBE305204502F4006A42F7 /* iPhone 5s-Edit Checklist Item_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2C2204502F4006A42F7 /* iPhone 5s-Edit Checklist Item_framed.png */; };
-		F4DBE306204502F4006A42F7 /* iPhone 6-Main.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2C3204502F4006A42F7 /* iPhone 6-Main.png */; };
-		F4DBE307204502F4006A42F7 /* iPhone 7-Main.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2C4204502F4006A42F7 /* iPhone 7-Main.png */; };
-		F4DBE308204502F4006A42F7 /* iPhone 6-Main_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2C5204502F4006A42F7 /* iPhone 6-Main_framed.png */; };
-		F4DBE309204502F4006A42F7 /* iPhone 7 Plus-Add Checklist_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2C6204502F4006A42F7 /* iPhone 7 Plus-Add Checklist_framed.png */; };
-		F4DBE30A204502F4006A42F7 /* iPhone 5s-Edit Checklist.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2C7204502F4006A42F7 /* iPhone 5s-Edit Checklist.png */; };
-		F4DBE30B204502F4006A42F7 /* iPhone 6-Add Checklist_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2C8204502F4006A42F7 /* iPhone 6-Add Checklist_framed.png */; };
-		F4DBE30C204502F4006A42F7 /* iPhone 5s-Add Checklist Item.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2C9204502F4006A42F7 /* iPhone 5s-Add Checklist Item.png */; };
-		F4DBE30D204502F4006A42F7 /* iPhone 6 Plus-Add Checklist Item_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2CA204502F4006A42F7 /* iPhone 6 Plus-Add Checklist Item_framed.png */; };
-		F4DBE30E204502F4006A42F7 /* iPhone 7-Edit Checklist.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2CB204502F4006A42F7 /* iPhone 7-Edit Checklist.png */; };
-		F4DBE30F204502F4006A42F7 /* iPhone 6-Add Checklist Item.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2CC204502F4006A42F7 /* iPhone 6-Add Checklist Item.png */; };
-		F4DBE310204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist Item.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2CD204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist Item.png */; };
-		F4DBE311204502F4006A42F7 /* iPhone 7-Add Checklist_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2CE204502F4006A42F7 /* iPhone 7-Add Checklist_framed.png */; };
-		F4DBE312204502F4006A42F7 /* iPhone 7-Add Checklist Item.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2CF204502F4006A42F7 /* iPhone 7-Add Checklist Item.png */; };
-		F4DBE313204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist Item_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2D0204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist Item_framed.png */; };
-		F4DBE314204502F4006A42F7 /* iPhone 7-Main_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2D1204502F4006A42F7 /* iPhone 7-Main_framed.png */; };
-		F4DBE315204502F4006A42F7 /* iPhone 6 Plus-Main_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2D2204502F4006A42F7 /* iPhone 6 Plus-Main_framed.png */; };
-		F4DBE316204502F4006A42F7 /* iPhone 6 Plus-Checklist Items_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2D3204502F4006A42F7 /* iPhone 6 Plus-Checklist Items_framed.png */; };
-		F4DBE317204502F4006A42F7 /* iPhone 5s-Main.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2D4204502F4006A42F7 /* iPhone 5s-Main.png */; };
-		F4DBE318204502F4006A42F7 /* iPhone 7-Edit Checklist Item_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2D5204502F4006A42F7 /* iPhone 7-Edit Checklist Item_framed.png */; };
-		F4DBE319204502F4006A42F7 /* iPhone 6-Checklist Items_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2D6204502F4006A42F7 /* iPhone 6-Checklist Items_framed.png */; };
-		F4DBE31A204502F4006A42F7 /* iPhone 6 Plus-Add Checklist_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2D7204502F4006A42F7 /* iPhone 6 Plus-Add Checklist_framed.png */; };
-		F4DBE31B204502F4006A42F7 /* iPhone 7 Plus-Add Checklist Item_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2D8204502F4006A42F7 /* iPhone 7 Plus-Add Checklist Item_framed.png */; };
-		F4DBE31C204502F4006A42F7 /* iPhone 7 Plus-Main.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2D9204502F4006A42F7 /* iPhone 7 Plus-Main.png */; };
-		F4DBE31D204502F4006A42F7 /* screenshots.html in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2DA204502F4006A42F7 /* screenshots.html */; };
 		F4DBE31E204502F4006A42F7 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2DB204502F4006A42F7 /* Appfile */; };
 		F4DBE320204502F4006A42F7 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2DD204502F4006A42F7 /* Fastfile */; };
 		F4DBE323204502F4006A42F7 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2E0204502F4006A42F7 /* Snapfile */; };
@@ -120,67 +59,6 @@
 		F4DBE2912044EA63006A42F7 /* afazerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = afazerUITests.swift; sourceTree = "<group>"; };
 		F4DBE2932044EA63006A42F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4DBE2992044EA86006A42F7 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
-		F4DBE29E204502F4006A42F7 /* iPhone 7-Checklist Items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7-Checklist Items.png"; sourceTree = "<group>"; };
-		F4DBE29F204502F4006A42F7 /* iPhone 7 Plus-Checklist Items_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus-Checklist Items_framed.png"; sourceTree = "<group>"; };
-		F4DBE2A0204502F4006A42F7 /* iPhone 7 Plus-Checklist Items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus-Checklist Items.png"; sourceTree = "<group>"; };
-		F4DBE2A1204502F4006A42F7 /* iPhone 6-Checklist Items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6-Checklist Items.png"; sourceTree = "<group>"; };
-		F4DBE2A2204502F4006A42F7 /* iPhone 7-Add Checklist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7-Add Checklist.png"; sourceTree = "<group>"; };
-		F4DBE2A3204502F4006A42F7 /* iPhone 7 Plus-Add Checklist Item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus-Add Checklist Item.png"; sourceTree = "<group>"; };
-		F4DBE2A4204502F4006A42F7 /* iPhone 6 Plus-Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus-Main.png"; sourceTree = "<group>"; };
-		F4DBE2A5204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus-Edit Checklist_framed.png"; sourceTree = "<group>"; };
-		F4DBE2A6204502F4006A42F7 /* iPhone 5s-Add Checklist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5s-Add Checklist.png"; sourceTree = "<group>"; };
-		F4DBE2A7204502F4006A42F7 /* iPhone 6-Edit Checklist Item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6-Edit Checklist Item.png"; sourceTree = "<group>"; };
-		F4DBE2A8204502F4006A42F7 /* iPhone 5s-Add Checklist Item_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5s-Add Checklist Item_framed.png"; sourceTree = "<group>"; };
-		F4DBE2A9204502F4006A42F7 /* iPhone 6 Plus-Add Checklist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus-Add Checklist.png"; sourceTree = "<group>"; };
-		F4DBE2AA204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist Item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus-Edit Checklist Item.png"; sourceTree = "<group>"; };
-		F4DBE2AB204502F4006A42F7 /* iPhone 6-Add Checklist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6-Add Checklist.png"; sourceTree = "<group>"; };
-		F4DBE2AC204502F4006A42F7 /* iPhone 5s-Checklist Items_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5s-Checklist Items_framed.png"; sourceTree = "<group>"; };
-		F4DBE2AD204502F4006A42F7 /* iPhone 6-Add Checklist Item_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6-Add Checklist Item_framed.png"; sourceTree = "<group>"; };
-		F4DBE2AE204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus-Edit Checklist.png"; sourceTree = "<group>"; };
-		F4DBE2AF204502F4006A42F7 /* iPhone 6 Plus-Add Checklist Item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus-Add Checklist Item.png"; sourceTree = "<group>"; };
-		F4DBE2B0204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist Item_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus-Edit Checklist Item_framed.png"; sourceTree = "<group>"; };
-		F4DBE2B1204502F4006A42F7 /* iPhone 5s-Edit Checklist Item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5s-Edit Checklist Item.png"; sourceTree = "<group>"; };
-		F4DBE2B2204502F4006A42F7 /* iPhone 7 Plus-Add Checklist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus-Add Checklist.png"; sourceTree = "<group>"; };
-		F4DBE2B3204502F4006A42F7 /* iPhone 6-Edit Checklist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6-Edit Checklist.png"; sourceTree = "<group>"; };
-		F4DBE2B4204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus-Edit Checklist_framed.png"; sourceTree = "<group>"; };
-		F4DBE2B5204502F4006A42F7 /* iPhone 5s-Checklist Items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5s-Checklist Items.png"; sourceTree = "<group>"; };
-		F4DBE2B6204502F4006A42F7 /* iPhone 5s-Edit Checklist_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5s-Edit Checklist_framed.png"; sourceTree = "<group>"; };
-		F4DBE2B7204502F4006A42F7 /* iPhone 7-Edit Checklist_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7-Edit Checklist_framed.png"; sourceTree = "<group>"; };
-		F4DBE2B8204502F4006A42F7 /* iPhone 6 Plus-Checklist Items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus-Checklist Items.png"; sourceTree = "<group>"; };
-		F4DBE2B9204502F4006A42F7 /* iPhone 7-Add Checklist Item_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7-Add Checklist Item_framed.png"; sourceTree = "<group>"; };
-		F4DBE2BA204502F4006A42F7 /* iPhone 7 Plus-Main_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus-Main_framed.png"; sourceTree = "<group>"; };
-		F4DBE2BB204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus-Edit Checklist.png"; sourceTree = "<group>"; };
-		F4DBE2BC204502F4006A42F7 /* iPhone 7-Checklist Items_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7-Checklist Items_framed.png"; sourceTree = "<group>"; };
-		F4DBE2BD204502F4006A42F7 /* iPhone 5s-Main_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5s-Main_framed.png"; sourceTree = "<group>"; };
-		F4DBE2BE204502F4006A42F7 /* iPhone 6-Edit Checklist Item_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6-Edit Checklist Item_framed.png"; sourceTree = "<group>"; };
-		F4DBE2BF204502F4006A42F7 /* iPhone 7-Edit Checklist Item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7-Edit Checklist Item.png"; sourceTree = "<group>"; };
-		F4DBE2C0204502F4006A42F7 /* iPhone 5s-Add Checklist_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5s-Add Checklist_framed.png"; sourceTree = "<group>"; };
-		F4DBE2C1204502F4006A42F7 /* iPhone 6-Edit Checklist_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6-Edit Checklist_framed.png"; sourceTree = "<group>"; };
-		F4DBE2C2204502F4006A42F7 /* iPhone 5s-Edit Checklist Item_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5s-Edit Checklist Item_framed.png"; sourceTree = "<group>"; };
-		F4DBE2C3204502F4006A42F7 /* iPhone 6-Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6-Main.png"; sourceTree = "<group>"; };
-		F4DBE2C4204502F4006A42F7 /* iPhone 7-Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7-Main.png"; sourceTree = "<group>"; };
-		F4DBE2C5204502F4006A42F7 /* iPhone 6-Main_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6-Main_framed.png"; sourceTree = "<group>"; };
-		F4DBE2C6204502F4006A42F7 /* iPhone 7 Plus-Add Checklist_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus-Add Checklist_framed.png"; sourceTree = "<group>"; };
-		F4DBE2C7204502F4006A42F7 /* iPhone 5s-Edit Checklist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5s-Edit Checklist.png"; sourceTree = "<group>"; };
-		F4DBE2C8204502F4006A42F7 /* iPhone 6-Add Checklist_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6-Add Checklist_framed.png"; sourceTree = "<group>"; };
-		F4DBE2C9204502F4006A42F7 /* iPhone 5s-Add Checklist Item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5s-Add Checklist Item.png"; sourceTree = "<group>"; };
-		F4DBE2CA204502F4006A42F7 /* iPhone 6 Plus-Add Checklist Item_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus-Add Checklist Item_framed.png"; sourceTree = "<group>"; };
-		F4DBE2CB204502F4006A42F7 /* iPhone 7-Edit Checklist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7-Edit Checklist.png"; sourceTree = "<group>"; };
-		F4DBE2CC204502F4006A42F7 /* iPhone 6-Add Checklist Item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6-Add Checklist Item.png"; sourceTree = "<group>"; };
-		F4DBE2CD204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist Item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus-Edit Checklist Item.png"; sourceTree = "<group>"; };
-		F4DBE2CE204502F4006A42F7 /* iPhone 7-Add Checklist_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7-Add Checklist_framed.png"; sourceTree = "<group>"; };
-		F4DBE2CF204502F4006A42F7 /* iPhone 7-Add Checklist Item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7-Add Checklist Item.png"; sourceTree = "<group>"; };
-		F4DBE2D0204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist Item_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus-Edit Checklist Item_framed.png"; sourceTree = "<group>"; };
-		F4DBE2D1204502F4006A42F7 /* iPhone 7-Main_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7-Main_framed.png"; sourceTree = "<group>"; };
-		F4DBE2D2204502F4006A42F7 /* iPhone 6 Plus-Main_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus-Main_framed.png"; sourceTree = "<group>"; };
-		F4DBE2D3204502F4006A42F7 /* iPhone 6 Plus-Checklist Items_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus-Checklist Items_framed.png"; sourceTree = "<group>"; };
-		F4DBE2D4204502F4006A42F7 /* iPhone 5s-Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5s-Main.png"; sourceTree = "<group>"; };
-		F4DBE2D5204502F4006A42F7 /* iPhone 7-Edit Checklist Item_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7-Edit Checklist Item_framed.png"; sourceTree = "<group>"; };
-		F4DBE2D6204502F4006A42F7 /* iPhone 6-Checklist Items_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6-Checklist Items_framed.png"; sourceTree = "<group>"; };
-		F4DBE2D7204502F4006A42F7 /* iPhone 6 Plus-Add Checklist_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus-Add Checklist_framed.png"; sourceTree = "<group>"; };
-		F4DBE2D8204502F4006A42F7 /* iPhone 7 Plus-Add Checklist Item_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus-Add Checklist Item_framed.png"; sourceTree = "<group>"; };
-		F4DBE2D9204502F4006A42F7 /* iPhone 7 Plus-Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus-Main.png"; sourceTree = "<group>"; };
-		F4DBE2DA204502F4006A42F7 /* screenshots.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = screenshots.html; sourceTree = "<group>"; };
 		F4DBE2DB204502F4006A42F7 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
 		F4DBE2DD204502F4006A42F7 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
 		F4DBE2E0204502F4006A42F7 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapfile; sourceTree = "<group>"; };
@@ -287,7 +165,6 @@
 		F4DBE29B204502F4006A42F7 /* fastlane */ = {
 			isa = PBXGroup;
 			children = (
-				F4DBE29C204502F4006A42F7 /* screenshots */,
 				F4DBE2DB204502F4006A42F7 /* Appfile */,
 				F4DBE2DD204502F4006A42F7 /* Fastfile */,
 				F4DBE2E0204502F4006A42F7 /* Snapfile */,
@@ -295,82 +172,6 @@
 			);
 			path = fastlane;
 			sourceTree = SOURCE_ROOT;
-		};
-		F4DBE29C204502F4006A42F7 /* screenshots */ = {
-			isa = PBXGroup;
-			children = (
-				F4DBE29D204502F4006A42F7 /* en-US */,
-				F4DBE2DA204502F4006A42F7 /* screenshots.html */,
-			);
-			path = screenshots;
-			sourceTree = "<group>";
-		};
-		F4DBE29D204502F4006A42F7 /* en-US */ = {
-			isa = PBXGroup;
-			children = (
-				F4DBE29E204502F4006A42F7 /* iPhone 7-Checklist Items.png */,
-				F4DBE29F204502F4006A42F7 /* iPhone 7 Plus-Checklist Items_framed.png */,
-				F4DBE2A0204502F4006A42F7 /* iPhone 7 Plus-Checklist Items.png */,
-				F4DBE2A1204502F4006A42F7 /* iPhone 6-Checklist Items.png */,
-				F4DBE2A2204502F4006A42F7 /* iPhone 7-Add Checklist.png */,
-				F4DBE2A3204502F4006A42F7 /* iPhone 7 Plus-Add Checklist Item.png */,
-				F4DBE2A4204502F4006A42F7 /* iPhone 6 Plus-Main.png */,
-				F4DBE2A5204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist_framed.png */,
-				F4DBE2A6204502F4006A42F7 /* iPhone 5s-Add Checklist.png */,
-				F4DBE2A7204502F4006A42F7 /* iPhone 6-Edit Checklist Item.png */,
-				F4DBE2A8204502F4006A42F7 /* iPhone 5s-Add Checklist Item_framed.png */,
-				F4DBE2A9204502F4006A42F7 /* iPhone 6 Plus-Add Checklist.png */,
-				F4DBE2AA204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist Item.png */,
-				F4DBE2AB204502F4006A42F7 /* iPhone 6-Add Checklist.png */,
-				F4DBE2AC204502F4006A42F7 /* iPhone 5s-Checklist Items_framed.png */,
-				F4DBE2AD204502F4006A42F7 /* iPhone 6-Add Checklist Item_framed.png */,
-				F4DBE2AE204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist.png */,
-				F4DBE2AF204502F4006A42F7 /* iPhone 6 Plus-Add Checklist Item.png */,
-				F4DBE2B0204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist Item_framed.png */,
-				F4DBE2B1204502F4006A42F7 /* iPhone 5s-Edit Checklist Item.png */,
-				F4DBE2B2204502F4006A42F7 /* iPhone 7 Plus-Add Checklist.png */,
-				F4DBE2B3204502F4006A42F7 /* iPhone 6-Edit Checklist.png */,
-				F4DBE2B4204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist_framed.png */,
-				F4DBE2B5204502F4006A42F7 /* iPhone 5s-Checklist Items.png */,
-				F4DBE2B6204502F4006A42F7 /* iPhone 5s-Edit Checklist_framed.png */,
-				F4DBE2B7204502F4006A42F7 /* iPhone 7-Edit Checklist_framed.png */,
-				F4DBE2B8204502F4006A42F7 /* iPhone 6 Plus-Checklist Items.png */,
-				F4DBE2B9204502F4006A42F7 /* iPhone 7-Add Checklist Item_framed.png */,
-				F4DBE2BA204502F4006A42F7 /* iPhone 7 Plus-Main_framed.png */,
-				F4DBE2BB204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist.png */,
-				F4DBE2BC204502F4006A42F7 /* iPhone 7-Checklist Items_framed.png */,
-				F4DBE2BD204502F4006A42F7 /* iPhone 5s-Main_framed.png */,
-				F4DBE2BE204502F4006A42F7 /* iPhone 6-Edit Checklist Item_framed.png */,
-				F4DBE2BF204502F4006A42F7 /* iPhone 7-Edit Checklist Item.png */,
-				F4DBE2C0204502F4006A42F7 /* iPhone 5s-Add Checklist_framed.png */,
-				F4DBE2C1204502F4006A42F7 /* iPhone 6-Edit Checklist_framed.png */,
-				F4DBE2C2204502F4006A42F7 /* iPhone 5s-Edit Checklist Item_framed.png */,
-				F4DBE2C3204502F4006A42F7 /* iPhone 6-Main.png */,
-				F4DBE2C4204502F4006A42F7 /* iPhone 7-Main.png */,
-				F4DBE2C5204502F4006A42F7 /* iPhone 6-Main_framed.png */,
-				F4DBE2C6204502F4006A42F7 /* iPhone 7 Plus-Add Checklist_framed.png */,
-				F4DBE2C7204502F4006A42F7 /* iPhone 5s-Edit Checklist.png */,
-				F4DBE2C8204502F4006A42F7 /* iPhone 6-Add Checklist_framed.png */,
-				F4DBE2C9204502F4006A42F7 /* iPhone 5s-Add Checklist Item.png */,
-				F4DBE2CA204502F4006A42F7 /* iPhone 6 Plus-Add Checklist Item_framed.png */,
-				F4DBE2CB204502F4006A42F7 /* iPhone 7-Edit Checklist.png */,
-				F4DBE2CC204502F4006A42F7 /* iPhone 6-Add Checklist Item.png */,
-				F4DBE2CD204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist Item.png */,
-				F4DBE2CE204502F4006A42F7 /* iPhone 7-Add Checklist_framed.png */,
-				F4DBE2CF204502F4006A42F7 /* iPhone 7-Add Checklist Item.png */,
-				F4DBE2D0204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist Item_framed.png */,
-				F4DBE2D1204502F4006A42F7 /* iPhone 7-Main_framed.png */,
-				F4DBE2D2204502F4006A42F7 /* iPhone 6 Plus-Main_framed.png */,
-				F4DBE2D3204502F4006A42F7 /* iPhone 6 Plus-Checklist Items_framed.png */,
-				F4DBE2D4204502F4006A42F7 /* iPhone 5s-Main.png */,
-				F4DBE2D5204502F4006A42F7 /* iPhone 7-Edit Checklist Item_framed.png */,
-				F4DBE2D6204502F4006A42F7 /* iPhone 6-Checklist Items_framed.png */,
-				F4DBE2D7204502F4006A42F7 /* iPhone 6 Plus-Add Checklist_framed.png */,
-				F4DBE2D8204502F4006A42F7 /* iPhone 7 Plus-Add Checklist Item_framed.png */,
-				F4DBE2D9204502F4006A42F7 /* iPhone 7 Plus-Main.png */,
-			);
-			path = "en-US";
-			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -455,76 +256,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DBE307204502F4006A42F7 /* iPhone 7-Main.png in Resources */,
-				F4DBE30B204502F4006A42F7 /* iPhone 6-Add Checklist_framed.png in Resources */,
-				F4DBE2FC204502F4006A42F7 /* iPhone 7-Add Checklist Item_framed.png in Resources */,
-				F4DBE2F2204502F4006A42F7 /* iPhone 6 Plus-Add Checklist Item.png in Resources */,
 				F4DBE2872044E444006A42F7 /* Gemfile.lock in Resources */,
-				F4DBE2F7204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist_framed.png in Resources */,
-				F4DBE316204502F4006A42F7 /* iPhone 6 Plus-Checklist Items_framed.png in Resources */,
-				F4DBE30C204502F4006A42F7 /* iPhone 5s-Add Checklist Item.png in Resources */,
-				F4DBE2F6204502F4006A42F7 /* iPhone 6-Edit Checklist.png in Resources */,
-				F4DBE31B204502F4006A42F7 /* iPhone 7 Plus-Add Checklist Item_framed.png in Resources */,
-				F4DBE2E3204502F4006A42F7 /* iPhone 7 Plus-Checklist Items.png in Resources */,
 				F4DBE323204502F4006A42F7 /* Snapfile in Resources */,
-				F4DBE305204502F4006A42F7 /* iPhone 5s-Edit Checklist Item_framed.png in Resources */,
-				F4DBE30E204502F4006A42F7 /* iPhone 7-Edit Checklist.png in Resources */,
-				F4DBE2EB204502F4006A42F7 /* iPhone 5s-Add Checklist Item_framed.png in Resources */,
-				F4DBE304204502F4006A42F7 /* iPhone 6-Edit Checklist_framed.png in Resources */,
-				F4DBE2E4204502F4006A42F7 /* iPhone 6-Checklist Items.png in Resources */,
-				F4DBE2EC204502F4006A42F7 /* iPhone 6 Plus-Add Checklist.png in Resources */,
-				F4DBE2F5204502F4006A42F7 /* iPhone 7 Plus-Add Checklist.png in Resources */,
-				F4DBE2E6204502F4006A42F7 /* iPhone 7 Plus-Add Checklist Item.png in Resources */,
-				F4DBE2FF204502F4006A42F7 /* iPhone 7-Checklist Items_framed.png in Resources */,
-				F4DBE311204502F4006A42F7 /* iPhone 7-Add Checklist_framed.png in Resources */,
-				F4DBE31C204502F4006A42F7 /* iPhone 7 Plus-Main.png in Resources */,
 				F4DBE2852044E42D006A42F7 /* Gemfile in Resources */,
-				F4DBE2F4204502F4006A42F7 /* iPhone 5s-Edit Checklist Item.png in Resources */,
-				F4DBE300204502F4006A42F7 /* iPhone 5s-Main_framed.png in Resources */,
-				F4DBE302204502F4006A42F7 /* iPhone 7-Edit Checklist Item.png in Resources */,
-				F4DBE306204502F4006A42F7 /* iPhone 6-Main.png in Resources */,
-				F4DBE2F9204502F4006A42F7 /* iPhone 5s-Edit Checklist_framed.png in Resources */,
-				F4DBE2E8204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist_framed.png in Resources */,
-				F4DBE312204502F4006A42F7 /* iPhone 7-Add Checklist Item.png in Resources */,
-				F4DBE2FB204502F4006A42F7 /* iPhone 6 Plus-Checklist Items.png in Resources */,
-				F4DBE2EA204502F4006A42F7 /* iPhone 6-Edit Checklist Item.png in Resources */,
-				F4DBE301204502F4006A42F7 /* iPhone 6-Edit Checklist Item_framed.png in Resources */,
-				F4DBE314204502F4006A42F7 /* iPhone 7-Main_framed.png in Resources */,
-				F4DBE319204502F4006A42F7 /* iPhone 6-Checklist Items_framed.png in Resources */,
-				F4DBE2E2204502F4006A42F7 /* iPhone 7 Plus-Checklist Items_framed.png in Resources */,
 				F4DBE31E204502F4006A42F7 /* Appfile in Resources */,
-				F4DBE2F8204502F4006A42F7 /* iPhone 5s-Checklist Items.png in Resources */,
-				F4DBE31A204502F4006A42F7 /* iPhone 6 Plus-Add Checklist_framed.png in Resources */,
 				F4DFF57C204728FE00CAA2F1 /* Matchfile in Resources */,
-				F4DBE2EE204502F4006A42F7 /* iPhone 6-Add Checklist.png in Resources */,
-				F4DBE2FA204502F4006A42F7 /* iPhone 7-Edit Checklist_framed.png in Resources */,
-				F4DBE2E1204502F4006A42F7 /* iPhone 7-Checklist Items.png in Resources */,
-				F4DBE2FD204502F4006A42F7 /* iPhone 7 Plus-Main_framed.png in Resources */,
 				F4CB7C531FACEA0400B779B9 /* .gitignore in Resources */,
-				F4DBE2FE204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist.png in Resources */,
-				F4DBE2E7204502F4006A42F7 /* iPhone 6 Plus-Main.png in Resources */,
-				F4DBE30A204502F4006A42F7 /* iPhone 5s-Edit Checklist.png in Resources */,
-				F4DBE317204502F4006A42F7 /* iPhone 5s-Main.png in Resources */,
-				F4DBE30F204502F4006A42F7 /* iPhone 6-Add Checklist Item.png in Resources */,
-				F4DBE2F0204502F4006A42F7 /* iPhone 6-Add Checklist Item_framed.png in Resources */,
 				F4DBE320204502F4006A42F7 /* Fastfile in Resources */,
-				F4DBE310204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist Item.png in Resources */,
-				F4DBE309204502F4006A42F7 /* iPhone 7 Plus-Add Checklist_framed.png in Resources */,
-				F4DBE2E5204502F4006A42F7 /* iPhone 7-Add Checklist.png in Resources */,
-				F4DBE2F1204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist.png in Resources */,
-				F4DBE2ED204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist Item.png in Resources */,
-				F4DBE318204502F4006A42F7 /* iPhone 7-Edit Checklist Item_framed.png in Resources */,
-				F4DBE2E9204502F4006A42F7 /* iPhone 5s-Add Checklist.png in Resources */,
-				F4DBE2EF204502F4006A42F7 /* iPhone 5s-Checklist Items_framed.png in Resources */,
 				F4CB7C481FACE93600B779B9 /* Assets.xcassets in Resources */,
-				F4DBE315204502F4006A42F7 /* iPhone 6 Plus-Main_framed.png in Resources */,
-				F4DBE2F3204502F4006A42F7 /* iPhone 6 Plus-Edit Checklist Item_framed.png in Resources */,
-				F4DBE31D204502F4006A42F7 /* screenshots.html in Resources */,
-				F4DBE303204502F4006A42F7 /* iPhone 5s-Add Checklist_framed.png in Resources */,
-				F4DBE308204502F4006A42F7 /* iPhone 6-Main_framed.png in Resources */,
-				F4DBE30D204502F4006A42F7 /* iPhone 6 Plus-Add Checklist Item_framed.png in Resources */,
 				F4CB7C461FACE93600B779B9 /* Main.storyboard in Resources */,
-				F4DBE313204502F4006A42F7 /* iPhone 7 Plus-Edit Checklist Item_framed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

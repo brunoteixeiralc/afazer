@@ -10,12 +10,15 @@
 #SLACK_URL="https://hooks.slack.com/services/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"
 #DELIVER_USERNAME = "brunoteixeiralc@gmail.com"
 #DELIVER_APP_IDENTIFIER = "br.com.afazer"
-
-update_fastlane
+#DELIVER_ITMSTRANSPORTER_ADDITIONAL_UPLOAD_PARAMETERS = "-t DAV"
 
 default_platform(:ios)
 
 platform :ios do
+
+before_all do
+    update_fastlane
+end
 
 desc "Run tests"
     lane :tests do
@@ -24,22 +27,25 @@ desc "Run tests"
         project: "afazer.xcodeproj",
         devices: ["iPhone 5s"],
         scheme: "afazerUITests",
-        slack_message:"Successfully run UI Tests",
-            success:true)
+        slack_message:"Successfully run UI Tests")
 
 end
 
 desc "Generate screenshots and upload to apple store"
     lane :screenshots do
         capture_screenshots(scheme: "afazer")
-        frameit(silver: true)
-        appstore(skip_binary_upload: true, skip_metadata: true)
+        appstore(skip_binary_upload: true,
+            skip_metadata: true,
+            skip_app_version_update: true,
+            force: true,
+            overwrite_screenshots: true
+        )
         slack(message:"Successfully uploaded screenshots to itunes connect", success:true)
 end
 
 desc "Beta app"
     lane :beta do
-        match(type: "development", readonly: true)
+        match(type: "appstore", readonly: true)
         increment_build_number(
             build_number: latest_testflight_build_number + 1,
             xcodeproj: "afazer.xcodeproj"
@@ -52,7 +58,7 @@ desc "Beta app"
             clean:true,
             project: "afazer.xcodeproj",
             include_bitcode: true,
-            export_method:"development"
+            export_method:"app-store"
         )
         pilot(changelog: changelog)
         slack(message: "Successfully uploaded to Test Flight",

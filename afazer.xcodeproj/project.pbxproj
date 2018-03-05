@@ -25,7 +25,6 @@
 		F4DBE320204502F4006A42F7 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2DD204502F4006A42F7 /* Fastfile */; };
 		F4DBE323204502F4006A42F7 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE2E0204502F4006A42F7 /* Snapfile */; };
 		F4DBE355204CB52A006A42F7 /* copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE32F204CB52A006A42F7 /* copyright.txt */; };
-		F4DBE356204CB52A006A42F7 /* app_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE330204CB52A006A42F7 /* app_icon.jpg */; };
 		F4DBE357204CB52A006A42F7 /* phone_number.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE332204CB52A006A42F7 /* phone_number.txt */; };
 		F4DBE358204CB52A006A42F7 /* address_line1.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE333204CB52A006A42F7 /* address_line1.txt */; };
 		F4DBE359204CB52A006A42F7 /* country.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE334204CB52A006A42F7 /* country.txt */; };
@@ -61,6 +60,7 @@
 		F4DBE377204CB52A006A42F7 /* primary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4DBE354204CB52A006A42F7 /* primary_category.txt */; };
 		F4DFF57C204728FE00CAA2F1 /* Matchfile in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF57B204728FE00CAA2F1 /* Matchfile */; };
 		F4DFF5C02048840900CAA2F1 /* rating_config.json in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5BF2048840900CAA2F1 /* rating_config.json */; };
+		F4DFF5C4204D812E00CAA2F1 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5C3204D812E00CAA2F1 /* iTunesArtwork@2x.png */; };
 		F4F566921FB0B26500D26B90 /* AllListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */; };
 		F4F566941FB0B50C00D26B90 /* AllListsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */; };
 		F4F566961FB0B65200D26B90 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566951FB0B65200D26B90 /* Checklist.swift */; };
@@ -99,7 +99,6 @@
 		F4DBE2DD204502F4006A42F7 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
 		F4DBE2E0204502F4006A42F7 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapfile; sourceTree = "<group>"; };
 		F4DBE32F204CB52A006A42F7 /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copyright.txt; sourceTree = "<group>"; };
-		F4DBE330204CB52A006A42F7 /* app_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = app_icon.jpg; sourceTree = "<group>"; };
 		F4DBE332204CB52A006A42F7 /* phone_number.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = phone_number.txt; sourceTree = "<group>"; };
 		F4DBE333204CB52A006A42F7 /* address_line1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = address_line1.txt; sourceTree = "<group>"; };
 		F4DBE334204CB52A006A42F7 /* country.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = country.txt; sourceTree = "<group>"; };
@@ -135,6 +134,7 @@
 		F4DBE354204CB52A006A42F7 /* primary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = primary_category.txt; sourceTree = "<group>"; };
 		F4DFF57B204728FE00CAA2F1 /* Matchfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Matchfile; sourceTree = "<group>"; };
 		F4DFF5BF2048840900CAA2F1 /* rating_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = rating_config.json; path = fastlane/rating_config.json; sourceTree = SOURCE_ROOT; };
+		F4DFF5C3204D812E00CAA2F1 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = SOURCE_ROOT; };
 		F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsTableViewController.swift; sourceTree = "<group>"; };
 		F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsTableViewCell.swift; sourceTree = "<group>"; };
 		F4F566951FB0B65200D26B90 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
@@ -237,6 +237,7 @@
 		F4DBE29B204502F4006A42F7 /* fastlane */ = {
 			isa = PBXGroup;
 			children = (
+				F4DFF5C3204D812E00CAA2F1 /* iTunesArtwork@2x.png */,
 				F4DBE32E204CB52A006A42F7 /* metadata */,
 				F4DFF5BF2048840900CAA2F1 /* rating_config.json */,
 				F4DBE2DB204502F4006A42F7 /* Appfile */,
@@ -251,7 +252,6 @@
 			isa = PBXGroup;
 			children = (
 				F4DBE32F204CB52A006A42F7 /* copyright.txt */,
-				F4DBE330204CB52A006A42F7 /* app_icon.jpg */,
 				F4DBE331204CB52A006A42F7 /* trade_representative_contact_information */,
 				F4DBE33D204CB52A006A42F7 /* secondary_first_sub_category.txt */,
 				F4DBE33E204CB52A006A42F7 /* secondary_category.txt */,
@@ -427,9 +427,9 @@
 				F4DBE35D204CB52A006A42F7 /* is_displayed_on_app_store.txt in Resources */,
 				F4DBE376204CB52A006A42F7 /* description.txt in Resources */,
 				F4DBE320204502F4006A42F7 /* Fastfile in Resources */,
+				F4DFF5C4204D812E00CAA2F1 /* iTunesArtwork@2x.png in Resources */,
 				F4DBE362204CB52A006A42F7 /* secondary_first_sub_category.txt in Resources */,
 				F4DBE361204CB52A006A42F7 /* state.txt in Resources */,
-				F4DBE356204CB52A006A42F7 /* app_icon.jpg in Resources */,
 				F4DBE35E204CB52A006A42F7 /* last_name.txt in Resources */,
 				F4DBE360204CB52A006A42F7 /* first_name.txt in Resources */,
 				F4CB7C481FACE93600B779B9 /* Assets.xcassets in Resources */,

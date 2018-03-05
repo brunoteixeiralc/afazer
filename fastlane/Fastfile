@@ -7,8 +7,8 @@
 #
 
 #.env.default
-#fastlane deliver download_metadata
 #fastlane beta version_number:99 build_number:99
+#fastlane release version_number:99
 
 default_platform(:ios)
 
@@ -99,7 +99,8 @@ desc "Release app"
         appstore(skip_metadata:true,
             skip_screenshots:true,
             submit_for_review:true,
-            automatic_release:true
+            automatic_release:true,
+            skip_binary_upload:true
         )
         slack(message: "Successfully uploaded a new App Store build",
             success:true)

@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode9.2
+xcode_project: afazer.xcodeproj
+xcode_scheme: afazer
+xcode_sdk: iphonesimulator11.2

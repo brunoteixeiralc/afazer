@@ -78,8 +78,9 @@ desc "Beta app"
         )
         pilot(changelog: changelog,
             beta_app_feedback_email:"brunoteixeiralc@gmail.com",
-            beta_app_description: changelog,
-            distribute_external:true
+            beta_app_description: "A Fazer BETA!",
+            distribute_external:true,
+            groups: "Testes Externos A Fazer"
         )
         slack(message: "Successfully uploaded to Test Flight",
             success:true)

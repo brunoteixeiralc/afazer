@@ -61,6 +61,7 @@
 		F4DFF57C204728FE00CAA2F1 /* Matchfile in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF57B204728FE00CAA2F1 /* Matchfile */; };
 		F4DFF5C02048840900CAA2F1 /* rating_config.json in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5BF2048840900CAA2F1 /* rating_config.json */; };
 		F4DFF5C4204D812E00CAA2F1 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5C3204D812E00CAA2F1 /* iTunesArtwork@2x.png */; };
+		F4DFF5C6204DB3AB00CAA2F1 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF5C5204DB3AB00CAA2F1 /* .travis.yml */; };
 		F4F566921FB0B26500D26B90 /* AllListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */; };
 		F4F566941FB0B50C00D26B90 /* AllListsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */; };
 		F4F566961FB0B65200D26B90 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F566951FB0B65200D26B90 /* Checklist.swift */; };
@@ -135,6 +136,7 @@
 		F4DFF57B204728FE00CAA2F1 /* Matchfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Matchfile; sourceTree = "<group>"; };
 		F4DFF5BF2048840900CAA2F1 /* rating_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = rating_config.json; path = fastlane/rating_config.json; sourceTree = SOURCE_ROOT; };
 		F4DFF5C3204D812E00CAA2F1 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = SOURCE_ROOT; };
+		F4DFF5C5204DB3AB00CAA2F1 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = SOURCE_ROOT; };
 		F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsTableViewController.swift; sourceTree = "<group>"; };
 		F4F566931FB0B50C00D26B90 /* AllListsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsTableViewCell.swift; sourceTree = "<group>"; };
 		F4F566951FB0B65200D26B90 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 		F4CB7C3F1FACE93600B779B9 /* afazer */ = {
 			isa = PBXGroup;
 			children = (
+				F4DFF5C5204DB3AB00CAA2F1 /* .travis.yml */,
 				F4DBE29B204502F4006A42F7 /* fastlane */,
 				F4DBE2862044E444006A42F7 /* Gemfile.lock */,
 				F4DBE2842044E42D006A42F7 /* Gemfile */,
@@ -400,6 +403,7 @@
 				F4DBE371204CB52A006A42F7 /* keywords.txt in Resources */,
 				F4DBE372204CB52A006A42F7 /* promotional_text.txt in Resources */,
 				F4DBE366204CB52A006A42F7 /* phone_number.txt in Resources */,
+				F4DFF5C6204DB3AB00CAA2F1 /* .travis.yml in Resources */,
 				F4DBE2872044E444006A42F7 /* Gemfile.lock in Resources */,
 				F4DBE365204CB52A006A42F7 /* primary_second_sub_category.txt in Resources */,
 				F4DBE323204502F4006A42F7 /* Snapfile in Resources */,

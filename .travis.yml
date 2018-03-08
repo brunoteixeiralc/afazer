@@ -2,3 +2,7 @@ language: objective-c
 osx_image: xcode9.2
 xcode_project: afazer.xcodeproj
 xcode_sdk: iphonesimulator11.2
+
+before_install:
+- rvm use system
+- sudo gem install cocoapods -v '0.39.0'

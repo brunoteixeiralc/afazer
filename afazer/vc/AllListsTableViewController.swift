@@ -40,6 +40,8 @@ class AllListsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setUpTheming()
+        
         for list in lists {
             let item = ChecklistItem(name: "Item for \(list.name)")
             list.items.append(item)
@@ -174,5 +176,11 @@ extension AllListsTableViewController: ListDetailViewControllerDelegate{
         tableView.reloadData()
         
         navigationController?.popViewController(animated: true)
+    }
+}
+
+extension AllListsTableViewController: Themed{
+    func applyTheme(_ theme: AppTheme) {
+       // tableView.backgroundView?.backgroundColor = theme.backgroundColor;
     }
 }

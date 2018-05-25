@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F42349891FB28627004B260E /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42349881FB28627004B260E /* ListDetailViewController.swift */; };
+		F491466A20B7A19800585994 /* Theming.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491466720B7A19800585994 /* Theming.swift */; };
+		F491466B20B7A19800585994 /* AppThemeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491466820B7A19800585994 /* AppThemeProvider.swift */; };
+		F491466C20B7A19800585994 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491466920B7A19800585994 /* AppTheme.swift */; };
+		F491466E20B7A1D300585994 /* SubscribableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491466D20B7A1D200585994 /* SubscribableValue.swift */; };
+		F491467120B7A21500585994 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491466F20B7A21500585994 /* ArrayExtensions.swift */; };
+		F491467220B7A21500585994 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491467020B7A21500585994 /* Weak.swift */; };
+		F491467520B7A3A000585994 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491467420B7A3A000585994 /* AppNavigationController.swift */; };
+		F491467820B7A86500585994 /* ConfTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491467720B7A86500585994 /* ConfTableViewController.swift */; };
 		F4A356891FAE316100F748FD /* ChecklistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A356881FAE316100F748FD /* ChecklistTableViewController.swift */; };
 		F4A3568B1FAE349200F748FD /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3568A1FAE349200F748FD /* ChecklistItem.swift */; };
 		F4A3568D1FAE362000F748FD /* ChecklistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3568C1FAE362000F748FD /* ChecklistTableViewCell.swift */; };
@@ -78,6 +86,14 @@
 
 /* Begin PBXFileReference section */
 		F42349881FB28627004B260E /* ListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
+		F491466720B7A19800585994 /* Theming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theming.swift; sourceTree = "<group>"; };
+		F491466820B7A19800585994 /* AppThemeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppThemeProvider.swift; sourceTree = "<group>"; };
+		F491466920B7A19800585994 /* AppTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		F491466D20B7A1D200585994 /* SubscribableValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribableValue.swift; sourceTree = "<group>"; };
+		F491466F20B7A21500585994 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		F491467020B7A21500585994 /* Weak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
+		F491467420B7A3A000585994 /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
+		F491467720B7A86500585994 /* ConfTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfTableViewController.swift; sourceTree = "<group>"; };
 		F4A356881FAE316100F748FD /* ChecklistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewController.swift; sourceTree = "<group>"; };
 		F4A3568A1FAE349200F748FD /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		F4A3568C1FAE362000F748FD /* ChecklistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewCell.swift; sourceTree = "<group>"; };
@@ -179,13 +195,44 @@
 		F423498C1FB29526004B260E /* vc */ = {
 			isa = PBXGroup;
 			children = (
+				F491467620B7A3DC00585994 /* subclass */,
 				F4F566911FB0B26500D26B90 /* AllListsTableViewController.swift */,
 				F42349881FB28627004B260E /* ListDetailViewController.swift */,
 				F4A356881FAE316100F748FD /* ChecklistTableViewController.swift */,
 				F4A3568E1FAE42FE00F748FD /* AddItemViewController.swift */,
 				F4AC55CC1FD6052900973E09 /* IconPickerTableViewController.swift */,
+				F491467720B7A86500585994 /* ConfTableViewController.swift */,
 			);
 			path = vc;
+			sourceTree = "<group>";
+		};
+		F491466620B7A19800585994 /* theming */ = {
+			isa = PBXGroup;
+			children = (
+				F491466720B7A19800585994 /* Theming.swift */,
+				F491466820B7A19800585994 /* AppThemeProvider.swift */,
+				F491466920B7A19800585994 /* AppTheme.swift */,
+				F491467320B7A27900585994 /* helpers */,
+			);
+			path = theming;
+			sourceTree = "<group>";
+		};
+		F491467320B7A27900585994 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F491466D20B7A1D200585994 /* SubscribableValue.swift */,
+				F491466F20B7A21500585994 /* ArrayExtensions.swift */,
+				F491467020B7A21500585994 /* Weak.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		F491467620B7A3DC00585994 /* subclass */ = {
+			isa = PBXGroup;
+			children = (
+				F491467420B7A3A000585994 /* AppNavigationController.swift */,
+			);
+			path = subclass;
 			sourceTree = "<group>";
 		};
 		F4CB7C341FACE93500B779B9 = {
@@ -209,6 +256,7 @@
 		F4CB7C3F1FACE93600B779B9 /* afazer */ = {
 			isa = PBXGroup;
 			children = (
+				F491466620B7A19800585994 /* theming */,
 				F4DBE29B204502F4006A42F7 /* fastlane */,
 				F4DBE2862044E444006A42F7 /* Gemfile.lock */,
 				F4DBE2842044E42D006A42F7 /* Gemfile */,
@@ -458,15 +506,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F491466B20B7A19800585994 /* AppThemeProvider.swift in Sources */,
+				F491467120B7A21500585994 /* ArrayExtensions.swift in Sources */,
 				F4F566941FB0B50C00D26B90 /* AllListsTableViewCell.swift in Sources */,
+				F491466E20B7A1D300585994 /* SubscribableValue.swift in Sources */,
+				F491467520B7A3A000585994 /* AppNavigationController.swift in Sources */,
 				F4A3568F1FAE42FE00F748FD /* AddItemViewController.swift in Sources */,
+				F491466C20B7A19800585994 /* AppTheme.swift in Sources */,
 				F4AC55CD1FD6052900973E09 /* IconPickerTableViewController.swift in Sources */,
 				F4F566921FB0B26500D26B90 /* AllListsTableViewController.swift in Sources */,
+				F491467820B7A86500585994 /* ConfTableViewController.swift in Sources */,
 				F4A3568D1FAE362000F748FD /* ChecklistTableViewCell.swift in Sources */,
 				F4F566961FB0B65200D26B90 /* Checklist.swift in Sources */,
 				F4A356891FAE316100F748FD /* ChecklistTableViewController.swift in Sources */,
 				F42349891FB28627004B260E /* ListDetailViewController.swift in Sources */,
 				F4A3568B1FAE349200F748FD /* ChecklistItem.swift in Sources */,
+				F491467220B7A21500585994 /* Weak.swift in Sources */,
+				F491466A20B7A19800585994 /* Theming.swift in Sources */,
 				F4CB7C411FACE93600B779B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

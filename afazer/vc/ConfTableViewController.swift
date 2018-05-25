@@ -15,16 +15,20 @@ class ConfTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpTheming()
-        dark_mode.isOn = false
     }
     
     @IBAction func stateChanged(switchState: UISwitch) {
-       themeProvider.nextTheme()
+        if switchState.isOn{
+           themeProvider.nextTheme(isON:true )
+        }else{
+           themeProvider.nextTheme(isON:false )
+        }
     }
 }
 
 extension ConfTableViewController: Themed{
     func applyTheme(_ theme: AppTheme) {
+        dark_mode.isOn = theme.statusBarStyle == .default
         dark_mode.onTintColor = theme.barBackgroundColor
     }
 }

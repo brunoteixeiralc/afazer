@@ -16,6 +16,7 @@ class AllListsTableViewCell: UITableViewCell {
     
     var item:Checklist! {
         didSet{
+            setUpTheming()
             updateUI()
         }
     }
@@ -33,5 +34,12 @@ class AllListsTableViewCell: UITableViewCell {
         } else{
            remain.text = "Ainda faltam \(item.countUncheckedItems()) itens."
         }
+    }
+}
+
+extension AllListsTableViewCell: Themed{
+    func applyTheme(_ theme: AppTheme) {
+       self.tintColor = theme.barBackgroundColor
+       remain.textColor = theme.barBackgroundColor
     }
 }

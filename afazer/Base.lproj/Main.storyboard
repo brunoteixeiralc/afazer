@@ -74,7 +74,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VN4-7H-faT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="184.80000000000001" y="-99.753694581280797"/>
+            <point key="canvasLocation" x="184.80000000000001" y="-100.29985007496252"/>
         </scene>
         <!--Adicionar item-->
         <scene sceneID="QBK-68-6JB">
@@ -285,7 +285,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Of-TQ-LYr">
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5Of-TQ-LYr">
                                                     <rect key="frame" x="308" y="6" width="51" height="31"/>
                                                     <color key="tintColor" name="PrimaryColor"/>
                                                     <color key="onTintColor" name="PrimaryColor"/>

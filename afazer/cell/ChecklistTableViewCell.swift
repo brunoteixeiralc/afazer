@@ -17,6 +17,7 @@ class ChecklistTableViewCell: UITableViewCell {
     var item:ChecklistItem! {
         didSet{
            updateUI()
+           setUpTheming()
         }
     }
     
@@ -33,3 +34,10 @@ class ChecklistTableViewCell: UITableViewCell {
         }
     }
 }
+
+extension ChecklistTableViewCell: Themed{
+    func applyTheme(_ theme: AppTheme) {
+        self.tintColor = theme.barBackgroundColor
+    }
+}
+

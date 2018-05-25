@@ -44,11 +44,8 @@ final class AppThemeProvider: ThemeProvider {
 		theme.subscribe(object, using: handler)
 	}
 
-	func nextTheme() {
-		guard let nextTheme = availableThemes.rotate() else {
-			return
-		}
-		currentTheme = nextTheme
+    func nextTheme(isON:Bool) {
+        currentTheme = isON ? availableThemes[1] : availableThemes[0]
 	}
 }
 

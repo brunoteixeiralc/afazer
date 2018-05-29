@@ -64,7 +64,7 @@ class ChecklistTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ChecklistItem", for: indexPath) as! ChecklistTableViewCell
         cell.item = checklist.items[indexPath.row]
-        
+
         return cell
     }
     

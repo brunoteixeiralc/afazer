@@ -47,6 +47,8 @@ class AddItemViewController: UITableViewController {
         name.delegate = self
         name.becomeFirstResponder()
         
+        setUpTheming()
+        
     }
     
     override func viewDidLoad() {
@@ -208,5 +210,9 @@ extension AddItemViewController: UITextFieldDelegate{
             }
             return true
     }
-    
+}
+
+extension AddItemViewController: Themed{
+    func applyTheme(_ theme: AppTheme) {
+    }
 }
